@@ -10,6 +10,9 @@ Gaz sensor on sparkfun
 https://www.sparkfun.com/products/8891
 https://www.sparkfun.com/products/9404
 
+Very interesting information:
+http://www.figarosensor.com/products/common(1104).pdf
+
 CO2 sensor MH-Z16: 3.3v (for RX / TX) + 5v!!!!
 BETTER: CO2 sensor MH-Z19: 3.3v (for RX / TX) + 5v!!!!
 
@@ -35,8 +38,8 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 | port | pin      |                       |     |
 | ---- | -------- | --------------------- | --- |
-| PC0  | A0       | Sensor1 on            |     |
-| PC1  | A1       | Sensor2 on            |     |
+| PC0  | A0       | LCD3                  |     |
+| PC1  | A1       | LCD4                  |     |
 | PC2  | A2       | Sensor1               |     |
 | PC3  | A3       | Sensor2               |     |
 | PC4  | SDA      | Slave I2C             |     |
@@ -52,8 +55,8 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | PD6  | D6       | Onewire (temperature) | PWM |
 | PD7  | D7       | LCD1                  |     |
 | PB0  | D8       | LCD2                  |     |
-| PB1  | D9       | LCD3                  | PWM |
-| PB2  | D10      | LCD4                  | PWM |
+| PB1  | D9       | Sensor1 on            | PWM |
+| PB2  | D10      | Sensor2 on            | PWM |
 | PB3  | MOSI D11 | LCD5                  | PWM |
 | PB4  | MISO D12 | LCD6                  |     |
 | PB5  | SCK D13  | LCD7 (background)     |     |
