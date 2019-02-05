@@ -10,9 +10,12 @@ Gaz sensor on sparkfun
 https://www.sparkfun.com/products/8891
 https://www.sparkfun.com/products/9404
 
-CO2 sensor MH-Z16
+CO2 sensor MH-Z16: 3.3v (for RX / TX) + 5v!!!!
+BETTER: CO2 sensor MH-Z19: 3.3v (for RX / TX) + 5v!!!!
 
-Gaz sensor: MQ4 MQ7 MQ8
+Gaz sensor: MQ4 MQ7 (requires 2 voltages) !!!) MQ8
+
+https://www.mysensors.org/build/gas
 
 Humidity sensor : DHT22
 
@@ -42,9 +45,9 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | PC7  | A7       | Sensor4               |     |
 | PD0  | RX       | FTDI                  |     |
 | PD1  | TX       | FTDI                  |     |
-| PD2  | D2       | Softwire I2C SCL      |     |
+| PD2  | D2       | Soft RX - MH-Z19      |     |
 | PD3  | D3       | Sensor3 on            | PWM |
-| PD4  | D4       | Softwire I2C SDA      |     |
+| PD4  | D4       | Soft TX - MH-Z19      |     |
 | PD5  | D5       | Sensor4 on            | PWM |
 | PD6  | D6       | Onewire (temperature) | PWM |
 | PD7  | D7       | LCD1                  |     |
@@ -54,6 +57,8 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | PB3  | MOSI D11 | LCD5                  | PWM |
 | PB4  | MISO D12 | LCD6                  |     |
 | PB5  | SCK D13  | LCD7 (background)     |     |
+
+Attenion: footprint of MH-Z19 should be directly on baord
 
 ## Power supply
 
