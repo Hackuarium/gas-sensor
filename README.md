@@ -30,30 +30,30 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 ## Pinout
 
-| port | pin  |                       |
-| ---- | ---- | --------------------- |
-| PC0  | A0   | Sensor1 on            |
-| PC1  | A1   | Sensor2 on            |
-| PC2  | A2   | Sensor1               |
-| PC3  | A3   | Sensor2               |
-| PC4  | SDA  | Slave I2C             |
-| PC5  | SCL  | Slave I2C             |
-| PC6  | A6   | Sensor3               |
-| PC7  | A7   | Sensor4               |
-| PD0  | RX   | FTDI                  |
-| PD1  | TX   | FTDI                  |
-| PD2  | D2   | Softwire I2C SCL      |
-| PD3  | D3   | Softwire I2C SDA      |
-| PD4  | D4   | Sensor3 on            |
-| PD5  | D5   | Sensor4 on            |
-| PD6  | D6   | Onewire (temperature) |
-| PD7  | D7   | LCD1                  |
-| PB0  | D8   | LCD2                  |
-| PB1  | D9   | LCD3                  |
-| PB2  | D10  | LCD4                  |
-| PB3  | MOSI | LCD5                  |
-| PB4  | MISO | LCD6                  |
-| PB5  | SCK  | LCD7 - D13 ???        |
+| port | pin      |                       |     |
+| ---- | -------- | --------------------- | --- |
+| PC0  | A0       | Sensor1 on            |     |
+| PC1  | A1       | Sensor2 on            |     |
+| PC2  | A2       | Sensor1               |     |
+| PC3  | A3       | Sensor2               |     |
+| PC4  | SDA      | Slave I2C             |     |
+| PC5  | SCL      | Slave I2C             |     |
+| PC6  | A6       | Sensor3               |     |
+| PC7  | A7       | Sensor4               |     |
+| PD0  | RX       | FTDI                  |     |
+| PD1  | TX       | FTDI                  |     |
+| PD2  | D2       | Softwire I2C SCL      |     |
+| PD3  | D3       | Sensor3 on            | PWM |
+| PD4  | D4       | Softwire I2C SDA      |     |
+| PD5  | D5       | Sensor4 on            | PWM |
+| PD6  | D6       | Onewire (temperature) | PWM |
+| PD7  | D7       | LCD1                  |     |
+| PB0  | D8       | LCD2                  |     |
+| PB1  | D9       | LCD3                  | PWM |
+| PB2  | D10      | LCD4                  | PWM |
+| PB3  | MOSI D11 | LCD5                  | PWM |
+| PB4  | MISO D12 | LCD6                  |     |
+| PB5  | SCK D13  | LCD7 (background)     |     |
 
 ## Power supply
 
