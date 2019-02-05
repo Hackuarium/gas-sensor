@@ -11,7 +11,12 @@ https://www.sparkfun.com/products/8891
 https://www.sparkfun.com/products/9404
 
 Very interesting information:
-http://www.figarosensor.com/products/common(1104).pdf
+
+- http://www.figarosensor.com/products/common(1104).pdf
+
+Need to compensate for humidity and temperature ???
+
+- https://forum.arduino.cc/index.php?topic=433045.0
 
 CO2 sensor MH-Z16: 3.3v (for RX / TX) + 5v!!!!
 BETTER: CO2 sensor MH-Z19: 3.3v (for RX / TX) + 5v!!!!
