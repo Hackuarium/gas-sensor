@@ -176,6 +176,12 @@ Wire Wire Line
 	10350 1350 10350 1600
 Text HLabel 10600 1350 2    50   Input ~ 0
 Sensor1
+<<<<<<< HEAD
+=======
+Wire Wire Line
+	10600 1350 10350 1350
+Connection ~ 10350 1350
+>>>>>>> master
 Text HLabel 6750 3700 2    50   Input ~ 0
 Sensor1
 Wire Wire Line
@@ -250,6 +256,12 @@ Wire Wire Line
 	9900 6100 9900 5850
 Text HLabel 10550 5400 2    50   Input ~ 0
 Sensor3
+<<<<<<< HEAD
+=======
+Wire Wire Line
+	10550 5400 10400 5400
+Connection ~ 10400 5400
+>>>>>>> master
 Text HLabel 6750 3800 2    50   Input ~ 0
 Sensor2
 Wire Wire Line
@@ -282,6 +294,12 @@ Wire Wire Line
 	10550 3100 10550 3250
 Text HLabel 10800 3100 2    50   Input ~ 0
 Sensor2
+<<<<<<< HEAD
+=======
+Wire Wire Line
+	10800 3100 10550 3100
+Connection ~ 10550 3100
+>>>>>>> master
 $Comp
 L power:GND #PWR?
 U 1 1 5C638F83
@@ -563,6 +581,12 @@ Wire Wire Line
 	2000 2250 2000 2150
 Wire Wire Line
 	2000 2150 2200 2150
+<<<<<<< HEAD
+=======
+Connection ~ 2200 2150
+Wire Wire Line
+	2200 2150 2200 2050
+>>>>>>> master
 Text HLabel 3050 2550 2    50   Input ~ 0
 RX
 Wire Wire Line
@@ -664,7 +688,11 @@ Text HLabel 5150 2900 0    50   Input ~ 0
 Sensor4
 Wire Wire Line
 	5150 2900 5300 2900
+<<<<<<< HEAD
 Text HLabel 2350 2150 2    50   Input ~ 0
+=======
+Text HLabel 2200 2050 1    50   Input ~ 0
+>>>>>>> master
 VCC-FTDI
 Wire Wire Line
 	1550 850  1550 900 
@@ -926,6 +954,7 @@ Text HLabel 6800 2900 2    50   Input ~ 0
 MOSI
 Wire Wire Line
 	6800 2900 6500 2900
+<<<<<<< HEAD
 Connection ~ 10400 5400
 Wire Wire Line
 	10550 5400 10400 5400
@@ -938,4 +967,6 @@ Connection ~ 10350 1350
 Wire Wire Line
 	2200 2150 2350 2150
 Connection ~ 2200 2150
+=======
+>>>>>>> master
 $EndSCHEMATC

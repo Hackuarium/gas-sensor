@@ -760,6 +760,20 @@ F 3 "~" H 4000 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 1550 3750 1550
+<<<<<<< HEAD
+=======
+$Comp
+L Regulator_Linear:MCP1703A-5002_SOT23 U?
+U 1 1 5C7610CA
+P 4450 1250
+F 0 "U?" H 4450 1492 50  0000 C CNN
+F 1 "MCP1703A-5002_SOT23" H 4450 1401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4450 1450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 4450 1200 50  0001 C CNN
+	1    4450 1250
+	1    0    0    -1  
+$EndComp
+>>>>>>> master
 Wire Wire Line
 	3750 1250 4000 1250
 Wire Wire Line
@@ -865,6 +879,7 @@ Wire Wire Line
 Connection ~ 3550 4650
 Wire Wire Line
 	3550 4650 3550 4000
+<<<<<<< HEAD
 $Comp
 L Regulator_Linear:MCP1703A-3302_SOT23 U?
 U 1 1 5C8439EF
@@ -938,4 +953,6 @@ Text HLabel 6800 2900 2    50   Input ~ 0
 MOSI
 Wire Wire Line
 	6800 2900 6500 2900
+=======
+>>>>>>> master
 $EndSCHEMATC
