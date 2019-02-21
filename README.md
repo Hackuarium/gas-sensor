@@ -21,7 +21,7 @@ Need to compensate for humidity and temperature ???
 CO2 sensor MH-Z16: 3.3v (for RX / TX) + 5v!!!!
 BETTER: CO2 sensor MH-Z19: 3.3v (for RX / TX) + 5v!!!!
 
-Gaz sensor: MQ4 MQ7 (requires 2 voltages) !!!) MQ8
+Gaz sensor: MQ4 MQ7 (requires 2 voltages: 1.4v et 5v) !!!) MQ8
 
 https://www.mysensors.org/build/gas
 
@@ -86,8 +86,14 @@ Attenion: footprint of MH-Z19 should be directly on baord
 
 * https://github.com/Hackuarium/esp-12e/tree/master/kica
 
-  - ICSP
-  - RJ12
+  - ICSP - TAG connect - take care of pin mapping !
+  - RJ12 - 6P6C
   - FTDI232
+  - LCD: WC1602A
 
 *
+
+## Get inspired from scale board
+
+https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle
+https://github.com/Hackuarium/esp-12e/tree/master/kicad/libs
