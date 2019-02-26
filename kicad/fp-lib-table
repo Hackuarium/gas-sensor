@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name gas_sensor)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr "Specialized footrpints for project gas sensor"))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name gas_sensor)(type Legacy)(uri "/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/libs/gas_sensor.lib")(options "")(descr ""))
+)

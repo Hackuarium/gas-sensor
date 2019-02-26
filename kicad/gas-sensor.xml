@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/gas-sensor.sch</source>
+    <date>Mardi, 26 février 2019 à 16:47:21</date>
+    <tool>Eeschema (5.0.1-3-g963ef8bb5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gas-sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5C62D6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5C638D</tstamp>
+    </comp>
+    <comp ref="GS1">
+      <value>MQ-4</value>
+      <footprint>gas_sensor:MQ-4</footprint>
+      <libsource lib="gas_sensor" part="MQ-4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6332CA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63383D</tstamp>
+    </comp>
+    <comp ref="GS3">
+      <value>MQ-8</value>
+      <footprint>gas_sensor:MQ-8</footprint>
+      <libsource lib="gas_sensor" part="MQ-8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6351EF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C636C21</tstamp>
+    </comp>
+    <comp ref="GS4">
+      <value>MH-Z19</value>
+      <footprint>gas_sensor:MH-Z19</footprint>
+      <libsource lib="gas_sensor" part="MH-Z19" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C64907F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6533D1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C653420</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C655D0C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C65C606</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FT232RL</value>
+      <footprint>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <datasheet>http://www.ftdichip.com/Products/ICs/FT232RL.htm</datasheet>
+      <libsource lib="Interface_USB" part="FT232RL" description="USB to Serial Interface, SSOP-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6637E2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C671B33</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DS18B20</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="DS18B20" description="Programmable Resolution 1-Wire Digital Thermometer TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6D4DA8</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ATmega328P-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6E2C83</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C748054</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74BDD1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74FC06</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C75C5BD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7867F7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C78684D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1703A-3302_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MCP1703A-3302_SOT23" description="Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin&lt;=16V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8439EF</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>ICSP</value>
+      <footprint>Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical</footprint>
+      <libsource lib="gas_sensor" part="ICSP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C849FFE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ12</value>
+      <footprint>Connector_RJ:RJ12_Amphenol_54601</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="RJ12" description="RJ connector, 6P6C (6 positions 6 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C757C2F</tstamp>
+    </comp>
+    <comp ref="DS1">
+      <value>WC1602A</value>
+      <footprint>Display:WC1602A</footprint>
+      <datasheet>http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf</datasheet>
+      <libsource lib="Display_Character" part="WC1602A" description="LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7BE6DA</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DHT22</value>
+      <libsource lib="gas_sensor" part="DHT22" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C786539</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="6P6C">
+      <aliases>
+        <alias>RJ12</alias>
+        <alias>RJ18</alias>
+        <alias>RJ25</alias>
+      </aliases>
+      <description>RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>6P6C*</fp>
+        <fp>RJ12*</fp>
+        <fp>RJ18*</fp>
+        <fp>RJ25*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6P6C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="WC1602A">
+      <description>LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD</description>
+      <docs>http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf</docs>
+      <footprints>
+        <fp>*WC*1602A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">WC1602A</field>
+        <field name="Footprint">Display:WC1602A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VO" type="input"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="R/W" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="D0" type="input"/>
+        <pin num="8" name="D1" type="input"/>
+        <pin num="9" name="D2" type="input"/>
+        <pin num="10" name="D3" type="input"/>
+        <pin num="11" name="D4" type="input"/>
+        <pin num="12" name="D5" type="input"/>
+        <pin num="13" name="D6" type="input"/>
+        <pin num="14" name="D7" type="input"/>
+        <pin num="15" name="LED(+)" type="power_in"/>
+        <pin num="16" name="LED(-)" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT232RL">
+      <description>USB to Serial Interface, SSOP-28</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT232RL.htm</docs>
+      <footprints>
+        <fp>SSOP*5.3x10.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT232RL</field>
+        <field name="Footprint">Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="DTR" type="output"/>
+        <pin num="3" name="RTS" type="output"/>
+        <pin num="4" name="VCCIO" type="input"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="RI" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="9" name="DCR" type="input"/>
+        <pin num="10" name="DCD" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="CBUS4" type="BiDi"/>
+        <pin num="13" name="CBUS2" type="BiDi"/>
+        <pin num="14" name="CBUS3" type="BiDi"/>
+        <pin num="15" name="USBD+" type="BiDi"/>
+        <pin num="16" name="USBD-" type="BiDi"/>
+        <pin num="17" name="3V3OUT" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="~RESET~" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="CBUS1" type="output"/>
+        <pin num="23" name="CBUS0" type="BiDi"/>
+        <pin num="25" name="AGND" type="power_in"/>
+        <pin num="26" name="TEST" type="power_in"/>
+        <pin num="27" name="OSCI" type="input"/>
+        <pin num="28" name="OSCO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega48A-AU">
+      <aliases>
+        <alias>ATmega48PA-AU</alias>
+        <alias>ATmega88A-AU</alias>
+        <alias>ATmega88PA-AU</alias>
+        <alias>ATmega168A-AU</alias>
+        <alias>ATmega168PA-AU</alias>
+        <alias>ATmega328-AU</alias>
+        <alias>ATmega328P-AU</alias>
+      </aliases>
+      <description>20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A_88A_168A-Data-Sheet-40002007A.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega48A-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="3state"/>
+        <pin num="2" name="PD4" type="3state"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="3state"/>
+        <pin num="8" name="XTAL2/PB7" type="3state"/>
+        <pin num="9" name="PD5" type="3state"/>
+        <pin num="10" name="PD6" type="3state"/>
+        <pin num="11" name="PD7" type="3state"/>
+        <pin num="12" name="PB0" type="3state"/>
+        <pin num="13" name="PB1" type="3state"/>
+        <pin num="14" name="PB2" type="3state"/>
+        <pin num="15" name="PB3" type="3state"/>
+        <pin num="16" name="PB4" type="3state"/>
+        <pin num="17" name="PB5" type="3state"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="3state"/>
+        <pin num="24" name="PC1" type="3state"/>
+        <pin num="25" name="PC2" type="3state"/>
+        <pin num="26" name="PC3" type="3state"/>
+        <pin num="27" name="PC4" type="3state"/>
+        <pin num="28" name="PC5" type="3state"/>
+        <pin num="29" name="~RESET~/PC6" type="3state"/>
+        <pin num="30" name="PD0" type="3state"/>
+        <pin num="31" name="PD1" type="3state"/>
+        <pin num="32" name="PD2" type="3state"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1703A-3302_SOT23">
+      <aliases>
+        <alias>MCP1703A-1202_SOT23</alias>
+        <alias>MCP1703A-1502_SOT23</alias>
+        <alias>MCP1703A-1802_SOT23</alias>
+        <alias>MCP1703A-2502_SOT23</alias>
+        <alias>MCP1703A-2802_SOT23</alias>
+        <alias>MCP1703A-3002_SOT23</alias>
+        <alias>MCP1703A-4002_SOT23</alias>
+        <alias>MCP1703A-5002_SOT23</alias>
+      </aliases>
+      <description>Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin&lt;=16V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1703A-3302_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="MAX31820">
+      <aliases>
+        <alias>DS1822</alias>
+        <alias>DS18B20</alias>
+        <alias>DS18S20</alias>
+        <alias>DS1821C</alias>
+      </aliases>
+      <description>1-Wire Ambient Temperature Sensor TO-92</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf</docs>
+      <footprints>
+        <fp>TO*92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31820</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DQ" type="BiDi"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="gas_sensor" part="DHT22">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DHT22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DATA" type="output"/>
+        <pin num="3" name="NULL" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="gas_sensor" part="ICSP">
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">ICSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="output"/>
+        <pin num="5" name="RESET" type="output"/>
+        <pin num="6" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="gas_sensor" part="MH-Z19">
+      <fields>
+        <field name="Reference">GS</field>
+        <field name="Value">MH-Z19</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="power_out"/>
+        <pin num="2" name="RX" type="output"/>
+        <pin num="3" name="TX" type="output"/>
+        <pin num="4" name="SR" type="NotConnected"/>
+        <pin num="5" name="HD" type="NotConnected"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="GND" type="power_out"/>
+        <pin num="8" name="AOT" type="NotConnected"/>
+        <pin num="9" name="PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="gas_sensor" part="MQ-4">
+      <fields>
+        <field name="Reference">GS</field>
+        <field name="Value">MQ-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="B" type="output"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="H" type="power_in"/>
+        <pin num="6" name="H" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="gas_sensor" part="MQ-8">
+      <fields>
+        <field name="Reference">GS</field>
+        <field name="Value">MQ-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="B" type="output"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="H" type="power_in"/>
+        <pin num="6" name="H" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>/Library/Application Support/kicad/library/Display_Character.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/Library/Application Support/kicad/library/Interface_USB.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/Library/Application Support/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>/Library/Application Support/kicad/library/Sensor_Temperature.lib</uri>
+    </library>
+    <library logical="gas_sensor">
+      <uri>/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/libs/gas_sensor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="R1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="1"/>
+      <node ref="GS1" pin="6"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="GS3" pin="6"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="GS4" pin="7"/>
+      <node ref="C6" pin="2"/>
+      <node ref="DS1" pin="16"/>
+      <node ref="DS1" pin="1"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U2" pin="25"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SP1" pin="6"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U5" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="DS1" pin="15"/>
+      <node ref="DS1" pin="2"/>
+      <node ref="GS4" pin="6"/>
+      <node ref="GS3" pin="5"/>
+      <node ref="GS3" pin="2"/>
+      <node ref="GS3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="GS1" pin="1"/>
+      <node ref="GS1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U4" pin="20"/>
+      <node ref="GS1" pin="5"/>
+    </net>
+    <net code="4" name="/Sensor1">
+      <node ref="GS1" pin="4"/>
+      <node ref="GS1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="5" name="/Sensor1">
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="6" name="/Sensor3">
+      <node ref="GS3" pin="3"/>
+      <node ref="GS3" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(GS4-Pad4)">
+      <node ref="GS4" pin="4"/>
+    </net>
+    <net code="8" name="Net-(GS4-Pad5)">
+      <node ref="GS4" pin="5"/>
+    </net>
+    <net code="9" name="Net-(GS4-Pad8)">
+      <node ref="GS4" pin="8"/>
+    </net>
+    <net code="10" name="/TX_MH-Z19">
+      <node ref="GS4" pin="3"/>
+    </net>
+    <net code="11" name="/RX_MH-Z19">
+      <node ref="GS4" pin="2"/>
+    </net>
+    <net code="12" name="/TX_MH-Z19">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="13" name="/RX_MH-Z19">
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="14" name="/PWM_MH-Z19">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="15" name="/PWM_MH-Z19">
+      <node ref="GS4" pin="9"/>
+    </net>
+    <net code="16" name="/XTAL1">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="17" name="/XTAL2">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="18" name="/XTAL1">
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="19" name="/XTAL2">
+      <node ref="R2" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="35" name="Net-(C1-Pad2)">
+      <node ref="U2" pin="17"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="36" name="/DTR">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="37" name="/DTR">
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="38" name="/RX">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="39" name="/TX">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="40" name="/RX">
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="41" name="/TX">
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="42" name="/SDA">
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="43" name="/SCL">
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="44" name="/TEMP">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="45" name="/TEMP">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="49" name="VCC">
+      <node ref="U4" pin="18"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="50" name="/Sensor3">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="51" name="/Sensor4">
+      <node ref="GS4" pin="1"/>
+    </net>
+    <net code="52" name="/Sensor4">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="53" name="/VCC-FTDI">
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="54" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="55" name="/VCC-FTDI">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="56" name="/VCC-ICSP">
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="57" name="/VCC-ICSP">
+      <node ref="SP1" pin="2"/>
+    </net>
+    <net code="58" name="/RESET">
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="59" name="/RESET">
+      <node ref="SP1" pin="5"/>
+    </net>
+    <net code="60" name="/MISO">
+      <node ref="SP1" pin="1"/>
+    </net>
+    <net code="61" name="/MOSI">
+      <node ref="SP1" pin="4"/>
+    </net>
+    <net code="62" name="/SCK">
+      <node ref="SP1" pin="3"/>
+    </net>
+    <net code="63" name="/MISO">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="64" name="/SCK">
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="65" name="/MOSI">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="66" name="/SCL">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="67" name="/SDA">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="68" name="+BATT">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="69" name="Net-(DS1-Pad10)">
+      <node ref="DS1" pin="10"/>
+    </net>
+    <net code="70" name="Net-(DS1-Pad3)">
+      <node ref="DS1" pin="3"/>
+    </net>
+    <net code="71" name="Net-(DS1-Pad4)">
+      <node ref="DS1" pin="4"/>
+    </net>
+    <net code="72" name="Net-(DS1-Pad5)">
+      <node ref="DS1" pin="5"/>
+    </net>
+    <net code="73" name="Net-(DS1-Pad6)">
+      <node ref="DS1" pin="6"/>
+    </net>
+    <net code="74" name="Net-(DS1-Pad7)">
+      <node ref="DS1" pin="7"/>
+    </net>
+    <net code="75" name="Net-(DS1-Pad8)">
+      <node ref="DS1" pin="8"/>
+    </net>
+    <net code="76" name="Net-(DS1-Pad9)">
+      <node ref="DS1" pin="9"/>
+    </net>
+    <net code="77" name="/LCD1">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="78" name="/LCD1">
+      <node ref="DS1" pin="11"/>
+    </net>
+    <net code="79" name="/LCD2">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="80" name="/LCD2">
+      <node ref="DS1" pin="12"/>
+    </net>
+    <net code="81" name="/LCD3">
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="82" name="/LCD3">
+      <node ref="DS1" pin="13"/>
+    </net>
+    <net code="83" name="/LCD4">
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="84" name="/LCD4">
+      <node ref="DS1" pin="14"/>
+    </net>
+    <net code="85" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="86" name="/HUM">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="87" name="/HUM">
+      <node ref="U4" pin="26"/>
+    </net>
+  </nets>
+</export>
