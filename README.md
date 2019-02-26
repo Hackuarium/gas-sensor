@@ -91,8 +91,6 @@ Attenion: footprint of MH-Z19 should be directly on baord
   - FTDI232
   - LCD: WC1602A
 
-*
-
 ## Get inspired from scale board
 
 https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle
