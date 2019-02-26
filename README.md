@@ -1,6 +1,6 @@
 # gas-sensor
 
-The goal is to create a box allowing the determination of the gas composition of a bioreactor. The sensor that will be available are: CO2 (MH-Z16), CO (MQ-7), H2 (MQ-8) and methane (MQ-4) as well as temperature (DS18B20) and humidity (DHT-22).
+The goal is to create a box allowing the determination of the gas composition of a bioreactor. The sensor that will be available are: CO2 (MH-Z16), (CO (MQ-7)), H2 (MQ-8) and methane (MQ-4) as well as temperature (DS18B20) and humidity (DHT-22).
 
 The board will be compatible with arduino Lilapad Pro using a dedicated PCB.
 
@@ -46,7 +46,7 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | PC0  | A0       | LCD3                  |     |
 | PC1  | A1       | LCD4                  |     |
 | PC2  | A2       | Sensor1               |     |
-| PC3  | A3       | Sensor2               |     |
+| PC3  | A3       | (Sensor2) HUMIDITY    |     |
 | PC4  | SDA      | Slave I2C             |     |
 | PC5  | SCL      | Slave I2C             |     |
 | PC6  | A6       | Sensor3               |     |
@@ -61,7 +61,7 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | PD7  | D7       | LCD1                  |     |
 | PB0  | D8       | LCD2                  |     |
 | PB1  | D9       | Sensor1 on            | PWM |
-| PB2  | D10      | Sensor2 on            | PWM |
+| PB2  | D10      | (Sensor2 on)          | PWM |
 | PB3  | MOSI D11 | LCD5                  | PWM |
 | PB4  | MISO D12 | LCD6                  |     |
 | PB5  | SCK D13  | LCD7 (background)     |     |
