@@ -4,12 +4,6 @@ The goal is to create a box allowing the determination of the gas composition of
 
 The board will be compatible with arduino Lilapad Pro using a dedicated PCB.
 
-Gaz sensor: http://www.china-total.com/Product/meter/gas-sensor/Gas-sensor.htm
-
-Gaz sensor on sparkfun
-https://www.sparkfun.com/products/8891
-https://www.sparkfun.com/products/9404
-
 Very interesting information:
 
 - http://www.figarosensor.com/products/common(1104).pdf
@@ -18,11 +12,9 @@ Need to compensate for humidity and temperature ???
 
 - https://forum.arduino.cc/index.php?topic=433045.0
 
-CO2 sensor MH-Z19: 3.3v (for RX / TX) + 5v!!!!
+## Sensors
 
-Gaz sensor: MQ4, MQ8
-
-| name_pin | gas         | model   |                             |
+| name_pin | function    | model   |                             |
 | -------- | ----------- | ------- | --------------------------- |
 | sensor1  | CH4         | MQ-4    |                             |
 | sensor2  | H2          | MQ-8    |                             |
@@ -30,9 +22,13 @@ Gaz sensor: MQ4, MQ8
 | TEMP     | temperature | DS18B20 |                             |
 | HUM      | humidity    | DHT-22  |                             |
 
-https://www.mysensors.org/build/gas
+Gaz sensor: http://www.china-total.com/Product/meter/gas-sensor/Gas-sensor.htm
 
-Humidity sensor : DHT22
+Gaz sensor on sparkfun
+https://www.sparkfun.com/products/8891
+https://www.sparkfun.com/products/9404
+
+https://www.mysensors.org/build/gas
 
 Drying the air / pumping
 Particulate or Coalescing Filters
