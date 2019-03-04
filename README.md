@@ -79,6 +79,7 @@ Attenion: footprint of MH-Z19 should be directly on baord
 <img src="images/ftdi.png">
 <img src="images/icsp.png">
 <img src="images/ldo.png">
+
 ## Inspiration for PCB
 
 - Resistor + Capacitor: 0805
@@ -93,5 +94,5 @@ Attenion: footprint of MH-Z19 should be directly on baord
 
 ## Get inspired from scale board
 
-https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle 
-https://github.com/Hackuarium/esp-12e/tree/master/kicad/libs
+* https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle 
+* https://github.com/Hackuarium/esp-12e/tree/master/kicad/libs
