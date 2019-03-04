@@ -85,7 +85,7 @@ Attenion: footprint of MH-Z19 should be directly on baord
 - Resistor + Capacitor: 0805
 - Crystal 8MHz: Footprint 6035
 
-* https://github.com/Hackuarium/esp-12e/tree/master/kica
+* https://github.com/Hackuarium/esp-12e/tree/master/kicad
 
   - ICSP - TAG connect - take care of pin mapping !
   - RJ12 - 6P6C
