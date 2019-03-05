@@ -104,7 +104,7 @@ Sensor1
 Wire Wire Line
 	6750 3700 6500 3700
 $Comp
-L gas_sensor:MQ-8 GS3
+L gas-sensor-rescue:MQ-8-gas_sensor GS3
 U 1 1 5C6351EF
 P 9900 3750
 F 0 "GS3" H 9850 3800 50  0000 L CNN
@@ -141,9 +141,9 @@ $EndComp
 Text HLabel 9050 3750 0    50   Input ~ 0
 Sensor2
 Wire Wire Line
-	5900 5550 5900 5300
+	5900 5550 5900 5500
 $Comp
-L gas_sensor:MH-Z19 GS4
+L gas-sensor-rescue:MH-Z19-gas_sensor GS4
 U 1 1 5C64907F
 P 9800 5600
 F 0 "GS4" H 9800 5650 50  0000 C CNN
@@ -243,7 +243,7 @@ U 1 1 5C655D0C
 P 4200 4350
 F 0 "Y1" V 4154 4481 50  0000 L CNN
 F 1 "8MHz" V 4245 4481 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering" H 4200 4350 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 4200 4350 50  0001 C CNN
 F 3 "~" H 4200 4350 50  0001 C CNN
 	1    4200 4350
 	0    1    1    0   
@@ -267,10 +267,8 @@ Wire Wire Line
 	4600 4200 4600 4000
 Wire Wire Line
 	4600 4500 4600 4650
-Text HLabel 7800 3450 1    50   Input ~ 0
+Text HLabel 7800 3550 1    50   Input ~ 0
 DTR
-Wire Wire Line
-	7800 3450 7800 3700
 Text HLabel 6750 4300 2    50   Input ~ 0
 RX
 Wire Wire Line
@@ -470,7 +468,7 @@ Connection ~ 3550 4650
 Wire Wire Line
 	3550 4650 3550 4000
 $Comp
-L gas_sensor:ICSP SP1
+L gas-sensor-rescue:ICSP-gas_sensor SP1
 U 1 1 5C849FFE
 P 1900 4750
 F 0 "SP1" H 1900 5125 50  0000 C CNN
@@ -519,18 +517,12 @@ Text HLabel 1400 4750 0    50   Input ~ 0
 SCK
 Wire Wire Line
 	1400 4750 1500 4750
-Text HLabel 6800 3000 2    50   Input ~ 0
+Text HLabel 7600 3000 2    50   Input ~ 0
 MISO
-Text HLabel 6800 3100 2    50   Input ~ 0
+Text HLabel 7250 3100 2    50   Input ~ 0
 SCK
-Wire Wire Line
-	6800 3100 6500 3100
-Wire Wire Line
-	6800 3000 6500 3000
-Text HLabel 6800 2900 2    50   Input ~ 0
+Text HLabel 7600 2800 2    50   Input ~ 0
 MOSI
-Wire Wire Line
-	6800 2900 6500 2900
 $Comp
 L Connector:RJ12 J1
 U 1 1 5C757C2F
@@ -642,10 +634,6 @@ Text HLabel 3450 7000 0    50   Input ~ 0
 LCD4
 Wire Wire Line
 	3450 7000 3650 7000
-Text Notes 2500 5950 0    50   ~ 0
-PAS FINI BRANCHEMENT LCD\n
-Wire Wire Line
-	4700 6100 4450 6100
 $Comp
 L power:GND #PWR0125
 U 1 1 5C74D495
@@ -664,7 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2300 6000 2150
 $Comp
-L gas_sensor:DHT22 U5
+L gas-sensor-rescue:DHT22-gas_sensor U5
 U 1 1 5C786539
 P 6900 1150
 F 0 "U5" H 7077 1201 50  0000 L CNN
@@ -771,28 +759,6 @@ F 3 "" H 4050 5500 50  0001 C CNN
 	1    4050 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0116
-U 1 1 5C821541
-P 4700 6100
-F 0 "#PWR0116" H 4700 5950 50  0001 C CNN
-F 1 "VCC" H 4717 6273 50  0000 C CNN
-F 2 "" H 4700 6100 50  0001 C CNN
-F 3 "" H 4700 6100 50  0001 C CNN
-	1    4700 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0118
-U 1 1 5C8281C9
-P 1550 850
-F 0 "#PWR0118" H 1550 700 50  0001 C CNN
-F 1 "VCC" H 1567 1023 50  0000 C CNN
-F 2 "" H 1550 850 50  0001 C CNN
-F 3 "" H 1550 850 50  0001 C CNN
-	1    1550 850 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1350 6600
 $Comp
 L power:VCC #PWR0119
@@ -856,7 +822,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1400 4300 1250
 $Comp
-L gas_sensor:BSP75 Q1
+L gas-sensor-rescue:BSP75-gas_sensor Q1
 U 1 1 5C925971
 P 10000 2350
 F 0 "Q1" H 10206 2396 50  0000 L CNN
@@ -882,7 +848,7 @@ F 3 "" H 9900 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gas_sensor:BSP75 Q2
+L gas-sensor-rescue:BSP75-gas_sensor Q2
 U 1 1 5C9422E4
 P 10000 4450
 F 0 "Q2" H 10206 4496 50  0000 L CNN
@@ -928,7 +894,7 @@ $EndComp
 Wire Wire Line
 	10350 1650 10350 1150
 $Comp
-L gas_sensor:MQ-4 GS1
+L gas-sensor-rescue:MQ-4-gas_sensor GS1
 U 1 1 5C6332CA
 P 9900 1650
 F 0 "GS1" H 9850 1700 50  0000 L CNN
@@ -982,46 +948,225 @@ Connection ~ 9300 1650
 Wire Wire Line
 	8950 1650 9300 1650
 $Comp
-L gas_sensor:PJ-017DH J3
-U 1 1 5C859980
-P 3300 3000
-F 0 "J3" H 3294 3340 50  0000 C CNN
-F 1 "PJ-017DH" H 3294 3249 50  0000 C CNN
-F 2 "gas_sensor:PC-017C" H 3300 3000 50  0001 L BNN
-F 3 "Manufacturer recommendations" H 3300 3000 50  0001 L BNN
-F 4 "CUI INC" H 3300 3000 50  0001 L BNN "Champ4"
-	1    3300 3000
-	1    0    0    -1  
+L Device:C C1
+U 1 1 5C7F1DAD
+P 6200 5500
+F 0 "C1" V 5948 5500 50  0000 C CNN
+F 1 "100nF" V 6039 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6238 5350 50  0001 C CNN
+F 3 "~" H 6200 5500 50  0001 C CNN
+	1    6200 5500
+	0    1    1    0   
 $EndComp
+Connection ~ 5900 5500
+Wire Wire Line
+	5900 5500 5900 5300
 $Comp
-L power:+5V #PWR0124
-U 1 1 5C85A06A
-P 3800 2900
-F 0 "#PWR0124" H 3800 2750 50  0001 C CNN
-F 1 "+5V" H 3815 3073 50  0000 C CNN
-F 2 "" H 3800 2900 50  0001 C CNN
-F 3 "" H 3800 2900 50  0001 C CNN
-	1    3800 2900
+L power:+5V #PWR0118
+U 1 1 5C81BEBA
+P 1550 850
+F 0 "#PWR0118" H 1550 700 50  0001 C CNN
+F 1 "+5V" H 1565 1023 50  0000 C CNN
+F 2 "" H 1550 850 50  0001 C CNN
+F 3 "" H 1550 850 50  0001 C CNN
+	1    1550 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2900 3500 2900
+	6050 5500 5900 5500
+$Comp
+L power:VCC #PWR0124
+U 1 1 5C821EA8
+P 6550 5500
+F 0 "#PWR0124" H 6550 5350 50  0001 C CNN
+F 1 "VCC" H 6567 5673 50  0000 C CNN
+F 2 "" H 6550 5500 50  0001 C CNN
+F 3 "" H 6550 5500 50  0001 C CNN
+	1    6550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5500 6350 5500
+Wire Wire Line
+	7500 2900 7500 2800
+Wire Wire Line
+	6500 2900 7500 2900
+Wire Wire Line
+	7600 2800 7500 2800
+Text HLabel 7600 2900 2    50   Input ~ 0
+LCD_E
+Wire Wire Line
+	7600 2900 7500 2900
+Connection ~ 7500 2900
+Wire Wire Line
+	6500 3000 7500 3000
+Text HLabel 7600 3100 2    50   Input ~ 0
+LCD_RW
+Wire Wire Line
+	7800 3550 7800 3700
+Wire Wire Line
+	7600 3100 7500 3100
+Wire Wire Line
+	7500 3100 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7600 3000
+Wire Wire Line
+	6500 3100 7200 3100
+Text HLabel 7450 3200 2    50   Input ~ 0
+LCD_RS
+Wire Wire Line
+	7450 3200 7200 3200
+Wire Wire Line
+	7200 3200 7200 3100
+Connection ~ 7200 3100
+Wire Wire Line
+	7200 3100 7250 3100
+Text HLabel 3450 5800 0    50   Input ~ 0
+LCD_E
+Wire Wire Line
+	3450 5800 3650 5800
+Text HLabel 3450 5900 0    50   Input ~ 0
+LCD_RW
+Wire Wire Line
+	3450 5900 3650 5900
+Text HLabel 3450 6000 0    50   Input ~ 0
+LCD_RS
+Wire Wire Line
+	3450 6000 3650 6000
+Wire Wire Line
+	4050 5500 4450 5500
+Wire Wire Line
+	4450 5500 4450 5800
+Connection ~ 4050 5500
+$Comp
+L Connector:Conn_Coaxial_Power J3
+U 1 1 5C886C69
+P 7150 6200
+F 0 "J3" V 6933 6150 50  0000 C CNN
+F 1 "5V_Power_source" V 7024 6150 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 7150 6150 50  0001 C CNN
+F 3 "~" H 7150 6150 50  0001 C CNN
+	1    7150 6200
+	0    1    1    0   
+$EndComp
 $Comp
 L power:GND #PWR0126
-U 1 1 5C85FAE7
-P 3800 3100
-F 0 "#PWR0126" H 3800 2850 50  0001 C CNN
-F 1 "GND" H 3805 2927 50  0000 C CNN
-F 2 "" H 3800 3100 50  0001 C CNN
-F 3 "" H 3800 3100 50  0001 C CNN
-	1    3800 3100
+U 1 1 5C886DEF
+P 6750 6200
+F 0 "#PWR0126" H 6750 5950 50  0001 C CNN
+F 1 "GND" H 6755 6027 50  0000 C CNN
+F 2 "" H 6750 6200 50  0001 C CNN
+F 3 "" H 6750 6200 50  0001 C CNN
+	1    6750 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 3100 3500 3100
+	6750 6200 6950 6200
+$Comp
+L power:GNDPWR #PWR0127
+U 1 1 5C88DEF1
+P 6500 6200
+F 0 "#PWR0127" H 6500 6000 50  0001 C CNN
+F 1 "GNDPWR" H 6504 6046 50  0000 C CNN
+F 2 "" H 6500 6150 50  0001 C CNN
+F 3 "" H 6500 6150 50  0001 C CNN
+	1    6500 6200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3500 3000 3800 3000
+	6500 6200 6750 6200
+Connection ~ 6750 6200
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C8951CE
+P 7600 6200
+F 0 "#FLG0101" H 7600 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 7600 6374 50  0000 C CNN
+F 2 "" H 7600 6200 50  0001 C CNN
+F 3 "~" H 7600 6200 50  0001 C CNN
+	1    7600 6200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3800 3000 3800 3100
-Connection ~ 3800 3100
+	7600 6200 7250 6200
+$Comp
+L power:+5V #PWR0128
+U 1 1 5C89C5BB
+P 7900 6200
+F 0 "#PWR0128" H 7900 6050 50  0001 C CNN
+F 1 "+5V" H 7915 6373 50  0000 C CNN
+F 2 "" H 7900 6200 50  0001 C CNN
+F 3 "" H 7900 6200 50  0001 C CNN
+	1    7900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 6200 7900 6200
+Connection ~ 7600 6200
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5C8A50EC
+P 3200 2400
+F 0 "J4" H 3227 2426 50  0000 L CNN
+F 1 "hole" H 3227 2335 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2400 50  0001 C CNN
+F 3 "~" H 3200 2400 50  0001 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 2400
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5C8C9BF5
+P 3200 2600
+F 0 "J5" H 3227 2626 50  0000 L CNN
+F 1 "hole" H 3227 2535 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2600 50  0001 C CNN
+F 3 "~" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5C8C9C43
+P 3200 2800
+F 0 "J6" H 3227 2826 50  0000 L CNN
+F 1 "hole" H 3227 2735 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2800 50  0001 C CNN
+F 3 "~" H 3200 2800 50  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5C8C9C9B
+P 3200 3000
+F 0 "J7" H 3227 3026 50  0000 L CNN
+F 1 "hole" H 3227 2935 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 2600
+NoConn ~ 3000 2800
+NoConn ~ 3000 3000
+$Comp
+L Device:R R5
+U 1 1 5C8E0DDF
+P 4700 6100
+F 0 "R5" V 4493 6100 50  0000 C CNN
+F 1 "R" V 4584 6100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 6100 50  0001 C CNN
+F 3 "~" H 4700 6100 50  0001 C CNN
+	1    4700 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 6100 4450 6100
+Text HLabel 5000 6100 2    50   Input ~ 0
+LCD_LED
+Wire Wire Line
+	5000 6100 4850 6100
 $EndSCHEMATC
