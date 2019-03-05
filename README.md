@@ -45,15 +45,15 @@ https://www.alibaba.com/product-detail/A102-China-sup
 ## Pinout
 
 | n° | port | pin      |                       |     |
-|    | ---- | -------- | --------------------- | --- |
+| -- | ---- | -------- | --------------------- | --- |
 | 23 | PC0  | A0       | LCD3                  |     |
 | 24 | PC1  | A1       | LCD4                  |     |
 | 25 | PC2  | A2       | Sensor1               |     |
 | 26 | PC3  | A3       | HUMIDITY              |     |
 | 27 | PC4  | SDA      | Slave I2C             |     |
 | 28 | PC5  | SCL      | Slave I2C             |     |
-| 19 | ADC6  | A6       | Sensor2               |     |
-| 22 | ADC7  | A7       | Sensor3               |     |
+| 19 | ADC6 | A6       | Sensor2               |     |
+| 22 | ADC7 | A7       | Sensor3               |     |
 | 30 | PD0  | RX       | FTDI                  |     |
 | 31 | PD1  | TX       | FTDI                  |     |
 | 32 | PD2  | D2       | Soft RX - MH-Z19      |     |
