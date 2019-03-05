@@ -44,30 +44,30 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 ## Pinout
 
-| port | pin      |                       |     |
-| ---- | -------- | --------------------- | --- |
-| PC0  | A0       | LCD3                  |     |
-| PC1  | A1       | LCD4                  |     |
-| PC2  | A2       | Sensor1               |     |
-| PC3  | A3       | HUMIDITY              |     |
-| PC4  | SDA      | Slave I2C             |     |
-| PC5  | SCL      | Slave I2C             |     |
-| PC6  | A6       | Sensor2               |     |
-| PC7  | A7       | Sensor3               |     |
-| PD0  | RX       | FTDI                  |     |
-| PD1  | TX       | FTDI                  |     |
-| PD2  | D2       | Soft RX - MH-Z19      |     |
-| PD3  | D3       | Sensor2 on            | PWM |
-| PD4  | D4       | Soft TX - MH-Z19      |     |
-| PD5  | D5       | Sensor3 on            | PWM |
-| PD6  | D6       | Onewire (temperature) | PWM |
-| PD7  | D7       | LCD1                  |     |
-| PB0  | D8       | LCD2                  |     |
-| PB1  | D9       | Sensor1 on            | PWM |
-| PB2  | D10      |                       | PWM |
-| PB3  | MOSI D11 | LCD5                  | PWM |
-| PB4  | MISO D12 | LCD6                  |     |
-| PB5  | SCK D13  | LCD7 (background)     |     |
+| n° | port | pin      |                       |     |
+|    | ---- | -------- | --------------------- | --- |
+| 23 | PC0  | A0       | LCD3                  |     |
+| 24 | PC1  | A1       | LCD4                  |     |
+| 25 | PC2  | A2       | Sensor1               |     |
+| 26 | PC3  | A3       | HUMIDITY              |     |
+| 27 | PC4  | SDA      | Slave I2C             |     |
+| 28 | PC5  | SCL      | Slave I2C             |     |
+| 19 | ADC6  | A6       | Sensor2               |     |
+| 22 | ADC7  | A7       | Sensor3               |     |
+| 30 | PD0  | RX       | FTDI                  |     |
+| 31 | PD1  | TX       | FTDI                  |     |
+| 32 | PD2  | D2       | Soft RX - MH-Z19      |     |
+| 1  | PD3  | D3       | Sensor2 on            | PWM |
+| 2  | PD4  | D4       | Soft TX - MH-Z19      |     |
+| 9  | PD5  | D5       | Sensor3 on            | PWM |
+| 10 | PD6  | D6       | Onewire (temperature) | PWM |
+| 11 | PD7  | D7       | LCD1                  |     |
+| 12 | PB0  | D8       | LCD2                  |     |
+| 13 | PB1  | D9       | Sensor1 on            | PWM |
+| 14 | PB2  | D10      |                       | PWM |
+| 15 | PB3  | MOSI D11 | LCD5                  | PWM |
+| 16 | PB4  | MISO D12 | LCD6                  |     |
+| 17 | PB5  | SCK D13  | LCD7 (background)     |     |
 
 Attenion: footprint of MH-Z19 should be directly on baord
 
