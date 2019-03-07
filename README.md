@@ -46,30 +46,30 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 | n° | port | pin      |                       |     |
 | -- | ---- | -------- | --------------------- | --- |
-| 23 | PC0  | A0       | LCD3                  |     |
-| 24 | PC1  | A1       | LCD4                  |     |
-| 25 | PC2  | A2       | Sensor1               |     |
-| 26 | PC3  | A3       | HUMIDITY              |     |
+| 23 | PC0  | A0       | Sensor2               |     |
+| 24 | PC1  | A1       | sensor2 ON            |     |
+| 25 | PC2  | A2       | Sensor3               |     |
+| 26 | PC3  | A3       | Sensor3 ON            |     |
 | 27 | PC4  | SDA      | Slave I2C             |     |
 | 28 | PC5  | SCL      | Slave I2C             |     |
-| 19 | ADC6 | A6       | Sensor2               |     |
-| 22 | ADC7 | A7       | Sensor3               |     |
+| 19 | ADC6 | A6       | Sensor1               |     |
+| 22 | ADC7 | A7       | Sensor1 ON            |     |
 | 30 | PD0  | RX       | FTDI                  |     |
 | 31 | PD1  | TX       | FTDI                  |     |
-| 32 | PD2  | D2       | Soft RX - MH-Z19      |     |
-| 1  | PD3  | D3       | Sensor2 on            | PWM |
-| 2  | PD4  | D4       | Soft TX - MH-Z19      |     |
-| 9  | PD5  | D5       | Sensor3 on            | PWM |
-| 10 | PD6  | D6       | Onewire (temperature) | PWM |
-| 11 | PD7  | D7       | LCD1                  |     |
-| 12 | PB0  | D8       | LCD2                  |     |
-| 13 | PB1  | D9       | Sensor1 on            | PWM |
-| 14 | PB2  | D10      |                       | PWM |
-| 15 | PB3  | MOSI D11 | LCD5                  | PWM |
-| 16 | PB4  | MISO D12 | LCD6                  |     |
-| 17 | PB5  | SCK D13  | LCD7 (background)     |     |
+| 32 | PD2  | D2       | Soft TX - MH-Z19      |     |
+| 1  | PD3  | D3       | Soft TX - MH-Z19      | PWM |
+| 2  | PD4  | D4       | HUMIDITY              |     |
+| 9  | PD5  | D5       | TEMPERATURE           | PWM |
+| 10 | PD6  | D6       | LCD1                  | PWM |
+| 11 | PD7  | D7       | LCD2                  |     |
+| 12 | PB0  | D8       | LCD3                  |     |
+| 13 | PB1  | D9       | LCD8 LED              | PWM |
+| 14 | PB2  | D10      | LCD4                  | PWM |
+| 15 | PB3  | MOSI D11 | LCD5 E                | PWM |
+| 16 | PB4  | MISO D12 | LCD6 R/W              |     |
+| 17 | PB5  | SCK D13  | LCD7 RS               |     |
 
-Attenion: footprint of MH-Z19 should be directly on baord
+Attenion: footprint of MH-Z19 should be directly on board
 
 ## Power supply
 
