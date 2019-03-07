@@ -60,14 +60,14 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | 1  | PD3  | D3       | Sensor3 ON            | PWM |
 | 2  | PD4  | D4       | HUMIDITY              |     |
 | 9  | PD5  | D5       | TEMPERATURE           | PWM |
-| 10 | PD6  | D6       | LCD1                  | PWM |
-| 11 | PD7  | D7       | LCD2                  |     |
-| 12 | PB0  | D8       | LCD3                  |     |
-| 13 | PB1  | D9       | LCD8 LED              | PWM |
-| 14 | PB2  | D10      | LCD4                  | PWM |
-| 15 | PB3  | MOSI D11 | LCD5 E                | PWM |
-| 16 | PB4  | MISO D12 | LCD6 R/W              |     |
-| 17 | PB5  | SCK D13  | LCD7 RS               |     |
+| 10 | PD6  | D6       | LCD RS                | PWM |
+| 11 | PD7  | D7       | LCD R/W               |     |
+| 12 | PB0  | D8       | LCD E                 |     |
+| 13 | PB1  | D9       | LCD LED               | PWM |
+| 14 | PB2  | D10      | LCD1                  | PWM |
+| 15 | PB3  | MOSI D11 | LCD2                  | PWM |
+| 16 | PB4  | MISO D12 | LCD3                  |     |
+| 17 | PB5  | SCK D13  | LCD4                  |     |
 
 Attenion: footprint of MH-Z19 should be directly on board
 
