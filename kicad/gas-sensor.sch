@@ -1061,51 +1061,51 @@ Connection ~ 7600 6200
 $Comp
 L Connector:Conn_01x01_Female J3
 U 1 1 5C8A50EC
-P 3200 2400
-F 0 "J3" H 3227 2426 50  0000 L CNN
-F 1 "hole" H 3227 2335 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2400 50  0001 C CNN
-F 3 "~" H 3200 2400 50  0001 C CNN
-	1    3200 2400
+P 3550 2450
+F 0 "J3" H 3577 2476 50  0000 L CNN
+F 1 "hole" H 3577 2385 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3550 2450 50  0001 C CNN
+F 3 "~" H 3550 2450 50  0001 C CNN
+	1    3550 2450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3000 2400
+NoConn ~ 3350 2450
 $Comp
 L Connector:Conn_01x01_Female J4
 U 1 1 5C8C9BF5
-P 3200 2600
-F 0 "J4" H 3227 2626 50  0000 L CNN
-F 1 "hole" H 3227 2535 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2600 50  0001 C CNN
-F 3 "~" H 3200 2600 50  0001 C CNN
-	1    3200 2600
+P 3550 2650
+F 0 "J4" H 3577 2676 50  0000 L CNN
+F 1 "hole" H 3577 2585 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3550 2650 50  0001 C CNN
+F 3 "~" H 3550 2650 50  0001 C CNN
+	1    3550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J5
 U 1 1 5C8C9C43
-P 3200 2800
-F 0 "J5" H 3227 2826 50  0000 L CNN
-F 1 "hole" H 3227 2735 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 2800 50  0001 C CNN
-F 3 "~" H 3200 2800 50  0001 C CNN
-	1    3200 2800
+P 3550 2850
+F 0 "J5" H 3577 2876 50  0000 L CNN
+F 1 "hole" H 3577 2785 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3550 2850 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J6
 U 1 1 5C8C9C9B
-P 3200 3000
-F 0 "J6" H 3227 3026 50  0000 L CNN
-F 1 "hole" H 3227 2935 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 3000 50  0001 C CNN
-F 3 "~" H 3200 3000 50  0001 C CNN
-	1    3200 3000
+P 3550 3050
+F 0 "J6" H 3577 3076 50  0000 L CNN
+F 1 "hole" H 3577 2985 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3550 3050 50  0001 C CNN
+F 3 "~" H 3550 3050 50  0001 C CNN
+	1    3550 3050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3000 2600
-NoConn ~ 3000 2800
-NoConn ~ 3000 3000
+NoConn ~ 3350 2650
+NoConn ~ 3350 2850
+NoConn ~ 3350 3050
 Wire Wire Line
 	4550 6100 4450 6100
 Text HLabel 5000 6100 2    50   Input ~ 0
@@ -1145,4 +1145,52 @@ Wire Wire Line
 	6800 2900 6500 2900
 Wire Wire Line
 	6500 3000 6800 3000
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 5C897406
+P 3100 2450
+F 0 "J8" H 3127 2476 50  0000 L CNN
+F 1 "hole" H 3127 2385 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3100 2450 50  0001 C CNN
+F 3 "~" H 3100 2450 50  0001 C CNN
+	1    3100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 5C897463
+P 3100 2650
+F 0 "J9" H 3127 2676 50  0000 L CNN
+F 1 "hole" H 3127 2585 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3100 2650 50  0001 C CNN
+F 3 "~" H 3100 2650 50  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 5C8974BE
+P 3100 2850
+F 0 "J10" H 3127 2876 50  0000 L CNN
+F 1 "hole" H 3127 2785 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3100 2850 50  0001 C CNN
+F 3 "~" H 3100 2850 50  0001 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J11
+U 1 1 5C89751A
+P 3100 3050
+F 0 "J11" H 3127 3076 50  0000 L CNN
+F 1 "hole" H 3127 2985 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3100 3050 50  0001 C CNN
+F 3 "~" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 2450
+NoConn ~ 2900 2650
+NoConn ~ 2900 2850
+NoConn ~ 2900 3050
 $EndSCHEMATC
