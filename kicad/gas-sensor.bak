@@ -1193,15 +1193,4 @@ NoConn ~ 2900 2450
 NoConn ~ 2900 2650
 NoConn ~ 2900 2850
 NoConn ~ 2900 3050
-$Comp
-L Hackuarium:LOGO G1
-U 1 1 5C89821B
-P 6350 7150
-F 0 "G1" H 6350 6770 60  0001 C CNN
-F 1 "LOGO" H 6350 7530 60  0001 C CNN
-F 2 "footprints:hackuarium" H 6350 7150 50  0001 C CNN
-F 3 "" H 6350 7150 50  0001 C CNN
-	1    6350 7150
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

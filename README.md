@@ -52,14 +52,14 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | 26 | PC3  | A3       | Soft RX - MH-Z19      |     |
 | 27 | PC4  | SDA      | Slave I2C             |     |
 | 28 | PC5  | SCL      | Slave I2C             |     |
-| 19 | ADC6 | A6       | Sensor1 ON            |     |
-| 22 | ADC7 | A7       | Sensor1               |     |
+| 19 | ADC6 | A6       | Sensor1               |     |
+| 22 | ADC7 | A7       | Sensor1 ON            |     |
 | 30 | PD0  | RX       | FTDI                  |     |
 | 31 | PD1  | TX       | FTDI                  |     |
 | 32 | PD2  | D2       | Sensor3               |     |
 | 1  | PD3  | D3       | Sensor3 ON            | PWM |
-| 2  | PD4  | D4       | TEMPERATURE           |     |
-| 9  | PD5  | D5       | HUMIDITY              | PWM |
+| 2  | PD4  | D4       | HUMIDITY              |     |
+| 9  | PD5  | D5       | TEMPERATURE           | PWM |
 | 10 | PD6  | D6       | LCD RS                | PWM |
 | 11 | PD7  | D7       | LCD R/W               |     |
 | 12 | PB0  | D8       | LCD E                 |     |
