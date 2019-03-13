@@ -52,8 +52,8 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | 26 | PC3  | A3       | Soft RX - MH-Z19      |     |
 | 27 | PC4  | SDA      | Slave I2C             |     |
 | 28 | PC5  | SCL      | Slave I2C             |     |
-| 19 | ADC6 | A6       | Sensor1               |     |
-| 22 | ADC7 | A7       | Sensor1 ON            |     |
+| 19 | ADC6 | A6       | Sensor1 ON            |     |
+| 22 | ADC7 | A7       | Sensor1               |     |
 | 30 | PD0  | RX       | FTDI                  |     |
 | 31 | PD1  | TX       | FTDI                  |     |
 | 32 | PD2  | D2       | Sensor3               |     |
