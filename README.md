@@ -58,8 +58,8 @@ https://www.alibaba.com/product-detail/A102-China-sup
 | 31 | PD1  | TX       | FTDI                  |     |
 | 32 | PD2  | D2       | Sensor3               |     |
 | 1  | PD3  | D3       | Sensor3 ON            | PWM |
-| 2  | PD4  | D4       | HUMIDITY              |     |
-| 9  | PD5  | D5       | TEMPERATURE           | PWM |
+| 2  | PD4  | D4       | TEMPERATURE           |     |
+| 9  | PD5  | D5       | HUMIDITY              | PWM |
 | 10 | PD6  | D6       | LCD RS                | PWM |
 | 11 | PD7  | D7       | LCD R/W               |     |
 | 12 | PB0  | D8       | LCD E                 |     |
