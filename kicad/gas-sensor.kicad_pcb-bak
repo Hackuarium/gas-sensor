@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 384)
     (zones 0)
     (modules 37)
@@ -1844,6 +1844,9 @@
       (xy -0.810895 -7.26054) (xy -0.079411 -7.362342) (xy 0.650047 -7.316148)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "Gas sensor v1.0.0" (at 68.364 147.104) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 56.7 63.15) (end 143.7 63.15) (layer F.SilkS) (width 0.2) (tstamp 5C95B4CA))
   (gr_line (start 143.7 63.15) (end 143.7 97.5) (layer F.SilkS) (width 0.2))
   (gr_line (start 56.7 97.5) (end 143.3 97.5) (layer F.SilkS) (width 0.2))
