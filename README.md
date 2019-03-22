@@ -14,17 +14,15 @@ Need to compensate for humidity and temperature ???
 
 ## Sensors
 
-| name_pin | function    | model   |                             |
-| -------- | ----------- | ------- | --------------------------- |
-| sensor1  | CH4         | MQ-4    |                             |
-| sensor2  | H2          | MQ-8    |                             |
-| sensor3  | CO2         | MH-Z19  | 3.3v (for RX / TX) + 5v!!!! |
-| TEMP     | temperature | DS18B20 |                             |
-| HUM      | humidity    | DHT-22  |                             |
+| name_pin | function    | model   |                             | Arduino library                                |
+| -------- | ----------- | ------- | --------------------------- |                                                |
+| sensor1  | CH4         | MQ-4    |                             |                                                |
+| sensor2  | H2          | MQ-8    |                             |                                                |
+| sensor3  | CO2         | MH-Z19  | 3.3v (for RX / TX) + 5v!!!! | https://github.com/crisap94/MHZ19              |
+| TEMP     | temperature | DS18B20 |                             |                                                |
+| HUM      | humidity    | DHT-22  |                             | https://github.com/adafruit/DHT-sensor-library |
 
 Gaz sensor: http://www.china-total.com/Product/meter/gas-sensor/Gas-sensor.htm
-
-MHZ-19 libraries and arduino test: https://github.com/crisap94/MHZ19
 
 Gaz sensor on sparkfun:
 https://www.sparkfun.com/products/8891
