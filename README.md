@@ -24,6 +24,8 @@ Need to compensate for humidity and temperature ???
 
 Gaz sensor: http://www.china-total.com/Product/meter/gas-sensor/Gas-sensor.htm
 
+MHZ-19 libraries and arduino test: https://github.com/tobiasschuerg/MH-Z-CO2-Sensors
+
 Gaz sensor on sparkfun:
 https://www.sparkfun.com/products/8891
 https://www.sparkfun.com/products/9404
