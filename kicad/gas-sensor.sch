@@ -152,11 +152,11 @@ F 3 "" H 9800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 9200 5600 0    50   Input ~ 0
-TX_MH-Z19
+RX_MH-Z19
 Wire Wire Line
 	9200 5600 9300 5600
 Text HLabel 9200 5750 0    50   Input ~ 0
-RX_MH-Z19
+TX_MH-Z19
 Wire Wire Line
 	9200 5750 9300 5750
 Text HLabel 6750 4700 2    50   Input ~ 0
@@ -164,7 +164,7 @@ TEMP
 Wire Wire Line
 	6750 4700 6500 4700
 Text HLabel 6750 3700 2    50   Input ~ 0
-TX_MH-Z19
+RX_MH-Z19
 Wire Wire Line
 	6750 4500 6500 4500
 $Comp
@@ -327,7 +327,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 $EndComp
 Wire Wire Line
 	5050 2600 5300 2600
-Text HLabel 5150 2800 0    50   Input ~ 0
+Text HLabel 6750 3500 2    50   Input ~ 0
 Sensor1_ON
 Wire Wire Line
 	5150 2800 5300 2800
@@ -340,11 +340,11 @@ Sensor1
 Wire Wire Line
 	5150 2900 5300 2900
 Wire Wire Line
-	1550 850  1550 900 
+	1550 750  1550 800 
 Wire Wire Line
 	1550 1550 1550 1500
 Wire Wire Line
-	1950 1200 1850 1200
+	1950 1200 1900 1200
 Text HLabel 2950 950  0    50   Input ~ 0
 VCC-FTDI
 $Comp
@@ -558,17 +558,6 @@ Wire Wire Line
 	1000 6800 1000 6500
 Wire Wire Line
 	1000 6500 1350 6500
-$Comp
-L Display_Character:WC1602A DS1
-U 1 1 5C7BE6DA
-P 4050 6400
-F 0 "DS1" H 4550 6250 50  0000 C CNN
-F 1 "WC1602A" H 4550 6150 50  0000 C CNN
-F 2 "Display:WC1602A" H 4050 5500 50  0001 C CIN
-F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 4750 6400 50  0001 C CNN
-	1    4050 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 5500 4050 5600
 $Comp
@@ -584,10 +573,6 @@ F 3 "" H 4050 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 7300 4050 7200
-Text HLabel 6750 5000 2    50   Input ~ 0
-LCD_RW
-Wire Wire Line
-	6750 5000 6500 5000
 Text HLabel 3450 6700 0    50   Input ~ 0
 LCD1
 Wire Wire Line
@@ -604,7 +589,7 @@ Text HLabel 3450 6800 0    50   Input ~ 0
 LCD2_MOSI
 Wire Wire Line
 	3450 6800 3650 6800
-Text HLabel 6750 3500 2    50   Input ~ 0
+Text HLabel 5150 2800 0    50   Input ~ 0
 Sensor2
 Wire Wire Line
 	6750 3500 6500 3500
@@ -745,17 +730,6 @@ F 3 "" H 4050 5500 50  0001 C CNN
 $EndComp
 NoConn ~ 1350 6600
 $Comp
-L power:VCC #PWR028
-U 1 1 5C83C2AD
-P 10600 5900
-F 0 "#PWR028" H 10600 5750 50  0001 C CNN
-F 1 "VCC" H 10618 6073 50  0000 C CNN
-F 2 "" H 10600 5900 50  0001 C CNN
-F 3 "" H 10600 5900 50  0001 C CNN
-	1    10600 5900
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x06_Female J1
 U 1 1 5C87FCE3
 P 1450 2850
@@ -866,7 +840,7 @@ L Device:R R4
 U 1 1 5C63383D
 P 9300 2150
 F 0 "R4" H 9370 2196 50  0000 L CNN
-F 1 "20k" H 9370 2105 50  0000 L CNN
+F 1 "22k" H 9370 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9230 2150 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 	1    9300 2150
@@ -945,12 +919,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR03
 U 1 1 5C81BEBA
-P 1550 850
-F 0 "#PWR03" H 1550 700 50  0001 C CNN
-F 1 "+5V" H 1565 1023 50  0000 C CNN
-F 2 "" H 1550 850 50  0001 C CNN
-F 3 "" H 1550 850 50  0001 C CNN
-	1    1550 850 
+P 1550 750
+F 0 "#PWR03" H 1550 600 50  0001 C CNN
+F 1 "+5V" H 1565 923 50  0000 C CNN
+F 2 "" H 1550 750 50  0001 C CNN
+F 3 "" H 1550 750 50  0001 C CNN
+	1    1550 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -980,19 +954,10 @@ Text HLabel 3450 5800 0    50   Input ~ 0
 LCD_E
 Wire Wire Line
 	3450 5800 3650 5800
-Text HLabel 3450 5900 0    50   Input ~ 0
-LCD_RW
-Wire Wire Line
-	3450 5900 3650 5900
 Text HLabel 3450 6000 0    50   Input ~ 0
 LCD_RS
 Wire Wire Line
 	3450 6000 3650 6000
-Wire Wire Line
-	4050 5500 4450 5500
-Wire Wire Line
-	4450 5500 4450 5800
-Connection ~ 4050 5500
 $Comp
 L Connector:Conn_Coaxial_Power J7
 U 1 1 5C886C69
@@ -1115,7 +1080,7 @@ Wire Wire Line
 Text HLabel 6750 4600 2    50   Input ~ 0
 PWM_MH-Z19
 Text HLabel 6750 3800 2    50   Input ~ 0
-RX_MH-Z19
+TX_MH-Z19
 Text HLabel 6750 4500 2    50   Input ~ 0
 Sensor3
 Text HLabel 6800 2800 2    50   Input ~ 0
@@ -1127,7 +1092,7 @@ L Device:R R2
 U 1 1 5C853A25
 P 4700 6100
 F 0 "R2" V 4493 6100 50  0000 C CNN
-F 1 "R" V 4584 6100 50  0000 C CNN
+F 1 "4,7" V 4584 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 6100 50  0001 C CNN
 F 3 "~" H 4700 6100 50  0001 C CNN
 	1    4700 6100
@@ -1204,4 +1169,78 @@ F 3 "" H 6350 7150 50  0001 C CNN
 	1    6350 7150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C964BAA
+P 2850 5900
+F 0 "#PWR0101" H 2850 5650 50  0001 C CNN
+F 1 "GND" H 2855 5727 50  0000 C CNN
+F 2 "" H 2850 5900 50  0001 C CNN
+F 3 "" H 2850 5900 50  0001 C CNN
+	1    2850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5900 3650 5900
+$Comp
+L Device:R R6
+U 1 1 5C96BDEE
+P 1900 950
+F 0 "R6" H 1970 996 50  0000 L CNN
+F 1 "4,7k" H 1970 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 950 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+	1    1900 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1100 1900 1200
+Connection ~ 1900 1200
+Wire Wire Line
+	1900 1200 1850 1200
+Wire Wire Line
+	1900 800  1550 800 
+Wire Wire Line
+	1550 800  1550 900 
+Connection ~ 1550 800 
+$Comp
+L power:+5V #PWR0102
+U 1 1 5C99004F
+P 10600 5900
+F 0 "#PWR0102" H 10600 5750 50  0001 C CNN
+F 1 "+5V" H 10615 6073 50  0000 C CNN
+F 2 "" H 10600 5900 50  0001 C CNN
+F 3 "" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Variable R7
+U 1 1 5C99F42A
+P 4350 5600
+F 0 "R7" V 4105 5600 50  0000 C CNN
+F 1 "R_Variable" V 4196 5600 50  0000 C CNN
+F 2 "" V 4280 5600 50  0001 C CNN
+F 3 "~" H 4350 5600 50  0001 C CNN
+	1    4350 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Display_Character:WC1602A DS1
+U 1 1 5C7BE6DA
+P 4050 6400
+F 0 "DS1" H 4550 6250 50  0000 C CNN
+F 1 "WC1602A" H 4550 6150 50  0000 C CNN
+F 2 "Display:WC1602A" H 4050 5500 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 4750 6400 50  0001 C CNN
+	1    4050 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5600 4050 5600
+Connection ~ 4050 5600
+Wire Wire Line
+	4500 5600 4500 5800
+Wire Wire Line
+	4500 5800 4450 5800
 $EndSCHEMATC
