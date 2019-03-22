@@ -4,4 +4,5 @@
   (lib (name ICSP)(type Legacy)(uri "/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/symbols/ICSP.lib")(options "")(descr ""))
   (lib (name BSP75)(type Legacy)(uri "/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/symbols/BSP75.lib")(options "")(descr ""))
   (lib (name gas-sensor-rescue)(type Legacy)(uri ${KIPRJMOD}/gas-sensor-rescue.lib)(options "")(descr ""))
+  (lib (name 3362P-103)(type Legacy)(uri "/Users/olivierdietrich/Documents/OLIVIER/EPFL/COLOMBIE/PROJET/Git gas_sensor/gas-sensor/kicad/symbols/3362P-103.lib")(options "")(descr ""))
 )
