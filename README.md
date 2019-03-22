@@ -15,7 +15,7 @@ Need to compensate for humidity and temperature ???
 ## Sensors
 
 | name_pin | function    | model   |                             | Arduino library                                |
-| -------- | ----------- | ------- | --------------------------- |                                                |
+| -------- | ----------- | ------- | --------------------------- | ---------------------------------------------- |
 | sensor1  | CH4         | MQ-4    |                             |                                                |
 | sensor2  | H2          | MQ-8    |                             |                                                |
 | sensor3  | CO2         | MH-Z19  | 3.3v (for RX / TX) + 5v!!!! | https://github.com/crisap94/MHZ19              |
