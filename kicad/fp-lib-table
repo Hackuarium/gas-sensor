@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr ""))
+  (lib (name TRIM_3362R-1-222)(type Legacy)(uri ${KIPRJMOD}/footprints/TRIM_3362R-1-222.mod)(options "")(descr ""))
 )
