@@ -50,6 +50,8 @@ LiquidCrystal lcd(rs, rw, en, d4, d5, d6, d7);
 
 
 void setup() {
+  pinMode(9, OUTPUT);
+  digitalWrite(9, HIGH);
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Print a message to the LCD.

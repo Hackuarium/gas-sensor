@@ -6,7 +6,7 @@
 
 DHT_Unified dht(DHTPIN, DHTTYPE);
 
-NIL_WORKING_AREA(waThreadHumidity, 100);
+NIL_WORKING_AREA(waThreadHumidity, 140);
 
 NIL_THREAD(ThreadHumidity, arg)
 {
@@ -28,12 +28,9 @@ void getHumidityTemperature()
   sensors_event_t event;
   dht.temperature().getEvent(&event);
 
-  if (isnan(event.temperature))
-  {
+  if (isnan(event.temperature)) {
     setParameter(PARAM_HUMIDITY_TEMP, ERROR_VALUE);
-  }
-  else
-  {
+  } else {
     setParameter(PARAM_HUMIDITY_TEMP, event.temperature * 100);
   }
 
@@ -41,9 +38,7 @@ void getHumidityTemperature()
   if (isnan(event.relative_humidity))
   {
     setParameter(PARAM_HUMIDITY, ERROR_VALUE);
-  }
-  else
-  {
+  } else {
     setParameter(PARAM_HUMIDITY, event.relative_humidity * 100);
   }
 }

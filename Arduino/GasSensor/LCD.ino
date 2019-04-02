@@ -36,14 +36,14 @@ void showData() {
   lcd.print("J:");
   lcd.print((double)getParameter(PARAM_HUMIDITY) / 100);
   lcd.print(" ");
-    lcd.setCursor(0, 1);
+  lcd.setCursor(0, 1);
   lcd.print("CO2:");
-  lcd.print((double)getParameter(PARAM_CO2) / 100);
+  lcd.print((double)getParameter(PARAM_CO2));
   lcd.print(" ");
   lcd.setCursor(8, 1);
-  lcd.print("+-:");
-  lcd.print((double)getParameter(PARAM_CO2_ACCURACY) / 100);
-  lcd.print(" ");
+  lcd.print(""); 
+  lcd.print("");
+  lcd.print(F("        "));
 }
 
 

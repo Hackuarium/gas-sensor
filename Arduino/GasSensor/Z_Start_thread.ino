@@ -19,11 +19,13 @@ NIL_THREAD(ThreadMonitoring, arg) {
 NIL_THREADS_TABLE_BEGIN()
 // the order should be exact, Acquisition has the higher priority ...
 
+
+NIL_THREADS_TABLE_ENTRY(NULL, ThreadCO2, NULL, waThreadCO2, sizeof(waThreadCO2))
+
 NIL_THREADS_TABLE_ENTRY(NULL, ThreadTemperature, NULL, waThreadTemperature, sizeof(waThreadTemperature))
 
 NIL_THREADS_TABLE_ENTRY(NULL, ThreadHumidity, NULL, waThreadHumidity, sizeof(waThreadHumidity))
 
-NIL_THREADS_TABLE_ENTRY(NULL, ThreadCO2, NULL, waThreadCO2, sizeof(waThreadCO2))
 
 
 #ifdef THR_SERIAL

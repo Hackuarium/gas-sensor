@@ -8,14 +8,13 @@ OneWire oneWire1(TEMPERATURE_ONEWIRE);
 void getTemperature(OneWire &ow, int parameter);
 void startTemperatureAcquisition(OneWire &ow);
 
-NIL_WORKING_AREA(waThreadTemperature, 80);
+NIL_WORKING_AREA(waThreadTemperature, 30);
 
 NIL_THREAD(ThreadTemperature, arg)
 {
   nilThdSleepMilliseconds(1000);
 
-  while (true)
-  {
+  while (true) {
     nilThdSleepMilliseconds(5);
     startTemperatureAcquisition(oneWire1);
     nilThdSleepMilliseconds(1000);

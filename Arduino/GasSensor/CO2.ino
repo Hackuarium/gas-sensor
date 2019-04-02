@@ -12,14 +12,14 @@ MHZ19 mhz19(&mySerial);
 
 
 
-NIL_WORKING_AREA(waThreadCO2, 100);
+NIL_WORKING_AREA(waThreadCO2, 20);
 
 NIL_THREAD(ThreadCO2, arg) {
   nilThdSleepMilliseconds(1000);
-
+  mySerial.begin(9600);
   while (true) {
-    getHumidityTemperature();
     nilThdSleepMilliseconds(1000);
+    getCO2();
   }
 }
 
@@ -27,7 +27,7 @@ void getCO2() {
   MHZ19_RESULT response = mhz19.retrieveData();
   if (response == MHZ19_RESULT_OK) {
     setParameter(PARAM_CO2, mhz19.getCO2());
-    setParameter(PARAM_CO2_TEMP, mhz19.getTemperature());
+    setParameter(PARAM_CO2_TEMP, mhz19.getTemperature()*100);
     setParameter(PARAM_CO2_ACCURACY, mhz19.getAccuracy());
   } else {
     setParameter(PARAM_CO2, ERROR_VALUE);

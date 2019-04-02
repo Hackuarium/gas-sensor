@@ -12,6 +12,18 @@ Need to compensate for humidity and temperature ???
 
 - https://forum.arduino.cc/index.php?topic=433045.0
 
+## Cloning the project
+
+This project uses SUBMODULES
+
+In order to clone use:
+
+`git clone --recurse-submodules https://github.com/hackuarium/gas-sensor`
+
+To update the submodules
+
+`git submodule update --recursive --remote`
+
 ## Sensors
 
 | name_pin | function    | model   |                             | Arduino library                                |

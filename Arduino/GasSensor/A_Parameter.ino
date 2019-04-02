@@ -28,9 +28,7 @@
 #define PARAM_H2_ACTIVE       0  // invert rotary direction
 #define PARAM_CH4_ACTIVE      1  // invert rotary direction
 
-void resetParameters()
-{
-
+void resetParameters() {
   setAndSaveParameter(PARAM_FLAGS, 0b00000011);
   // setQualifier(21569); // value to be defined
 }
