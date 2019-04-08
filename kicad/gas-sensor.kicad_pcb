@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.1-3-g963ef8bb5)")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-5.fc29)
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -1871,7 +1871,7 @@
     (arrow2a (pts (xy 174.536 150.152) (xy 175.122421 149.025496)))
     (arrow2b (pts (xy 174.536 150.152) (xy 173.949579 149.025496)))
   )
-  (gr_text "Gas sensor v1.0.0" (at 68.364 147.104) (layer F.SilkS)
+  (gr_text "Gas sensor v1.1.0" (at 68.364 147.104) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 56.7 63.15) (end 143.7 63.15) (layer F.SilkS) (width 0.2) (tstamp 5C95B4CA))
@@ -2284,7 +2284,7 @@
   (segment (start 82.827934 142.312934) (end 86.04 145.525) (width 1) (layer F.Cu) (net 34))
   (segment (start 82.827934 140.122755) (end 82.827934 142.312934) (width 1) (layer F.Cu) (net 34))
 
-  (zone (net 7) (net_name +5V) (layer F.Cu) (tstamp 5C8A3209) (hatch edge 0.508)
+  (zone (net 7) (net_name +5V) (layer F.Cu) (tstamp 5C99133F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2589,7 +2589,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C8A3206) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C99133C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

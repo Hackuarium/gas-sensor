@@ -1,0 +1,3 @@
+[submodule "Arduino/GasSensor/libino"]
+	path = Arduino/GasSensor/libino
+	url = https://github.com/hackuarium/libino

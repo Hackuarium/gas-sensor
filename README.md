@@ -12,6 +12,18 @@ Need to compensate for humidity and temperature ???
 
 - https://forum.arduino.cc/index.php?topic=433045.0
 
+## Cloning the project
+
+This project uses SUBMODULES
+
+In order to clone use:
+
+`git clone --recurse-submodules https://github.com/hackuarium/gas-sensor`
+
+To update the submodules
+
+`git submodule update --recursive --remote`
+
 ## Sensors
 
 | name_pin | function    | model   |                             | Arduino library                                |
@@ -44,30 +56,30 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 ## Pinout
 
-| n° | port | pin      |                       |     |
-| -- | ---- | -------- | --------------------- | --- |
-| 23 | PC0  | A0       | Sensor2               |     |
-| 24 | PC1  | A1       | sensor2 ON            |     |
-| 25 | PC2  | A2       | Soft RX - MH-Z19      |     |
-| 26 | PC3  | A3       | Soft TX - MH-Z19      |     |
-| 27 | PC4  | SDA      | Slave I2C             |     |
-| 28 | PC5  | SCL      | Slave I2C             |     |
-| 19 | ADC6 | A6       | Sensor1               |     |
-| 22 | ADC7 | A7       | Sensor1 ON            |     |
-| 30 | PD0  | RX       | FTDI                  |     |
-| 31 | PD1  | TX       | FTDI                  |     |
-| 32 | PD2  | D2       | Sensor3               |     |
-| 1  | PD3  | D3       | Sensor3 ON            | PWM |
-| 2  | PD4  | D4       | HUMIDITY              |     |
-| 9  | PD5  | D5       | TEMPERATURE           | PWM |
-| 10 | PD6  | D6       | LCD RS                | PWM |
-| 11 | PD7  | D7       | LCD R/W               |     |
-| 12 | PB0  | D8       | LCD E                 |     |
-| 13 | PB1  | D9       | LCD LED               | PWM |
-| 14 | PB2  | D10      | LCD1                  | PWM |
-| 15 | PB3  | MOSI D11 | LCD2                  | PWM |
-| 16 | PB4  | MISO D12 | LCD3                  |     |
-| 17 | PB5  | SCK D13  | LCD4                  |     |
+| n°  | port | pin      |                  |     |
+| --- | ---- | -------- | ---------------- | --- |
+| 23  | PC0  | A0       | Sensor2          |     |
+| 24  | PC1  | A1       | sensor2 ON       |     |
+| 25  | PC2  | A2       | Soft RX - MH-Z19 |     |
+| 26  | PC3  | A3       | Soft TX - MH-Z19 |     |
+| 27  | PC4  | SDA      | Slave I2C        |     |
+| 28  | PC5  | SCL      | Slave I2C        |     |
+| 19  | ADC6 | A6       | Sensor1          |     |
+| 22  | ADC7 | A7       | Sensor1 ON       |     |
+| 30  | PD0  | RX       | FTDI             |     |
+| 31  | PD1  | TX       | FTDI             |     |
+| 32  | PD2  | D2       | Sensor3          |     |
+| 1   | PD3  | D3       | Sensor3 ON       | PWM |
+| 2   | PD4  | D4       | TEMPERATURE      |     |
+| 9   | PD5  | D5       | HUMIDITY         | PWM |
+| 10  | PD6  | D6       | LCD RS           | PWM |
+| 11  | PD7  | D7       | LCD R/W          |     |
+| 12  | PB0  | D8       | LCD E            |     |
+| 13  | PB1  | D9       | LCD LED          | PWM |
+| 14  | PB2  | D10      | LCD1             | PWM |
+| 15  | PB3  | MOSI D11 | LCD2             | PWM | mh |
+| 16  | PB4  | MISO D12 | LCD3             |     |
+| 17  | PB5  | SCK D13  | LCD4             |     |
 
 Attenion: footprint of MH-Z19 should be directly on board
 
@@ -97,5 +109,5 @@ Attenion: footprint of MH-Z19 should be directly on board
 
 ## Get inspired from scale board
 
-* https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle 
-* https://github.com/Hackuarium/esp-12e/tree/master/kicad/libs
+- https://github.com/Hackuarium/beemos/tree/master/scale-i2c/eagle
+- https://github.com/Hackuarium/esp-12e/tree/master/kicad/libs
