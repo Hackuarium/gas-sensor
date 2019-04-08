@@ -741,11 +741,11 @@ F 3 "~" H 1450 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text HLabel 1900 2650 2    50   Input ~ 0
-RX
+TX
 Wire Wire Line
 	1900 2650 1650 2650
 Text HLabel 1900 2750 2    50   Input ~ 0
-TX
+RX
 Wire Wire Line
 	1900 2750 1650 2750
 Text HLabel 1900 2850 2    50   Input ~ 0
@@ -840,7 +840,7 @@ L Device:R R4
 U 1 1 5C63383D
 P 9300 2150
 F 0 "R4" H 9370 2196 50  0000 L CNN
-F 1 "22k" H 9370 2105 50  0000 L CNN
+F 1 "4.7k" H 9370 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9230 2150 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 	1    9300 2150
