@@ -1,4 +1,4 @@
-The final version of the case which must be used is *Laser_Cut_Box_Adjusted.svg*.\n
+The final version of the case which must be used is *Laser_Cut_Box_Adjusted.svg*.
 The box is designed to be cut with a CNC (Computer Numerical Control) router, using a drill bit of 12mm. Before cutting, drilling parameters must be set as follow:
 * the outer contour of each piece must be set at "outside".
 * all the small rectangle holes designed to assemble the case must be set as "on-path".
