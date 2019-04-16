@@ -1,4 +1,4 @@
-The case is designed to be cut in a 3mm-wide material, using a CNC (Computer Numerical Control) router, mounted with a 12mm-drill bit. The box containing the sensors should be in plexiglas for easthetic reasons, and the remaining parts are up to the user (wood or plexiglas are cheap options). Before cutting, drilling parameters must be set as follow:
+The case is designed to be cut in a 3mm-wide material, using a CNC (Computer Numerical Control) router, mounted with a 1,2mm-drill bit. The box containing the sensors should be in plexiglas for easthetic reasons, and the remaining parts are up to the user (wood or plexiglas are cheap options). Before cutting, drilling parameters must be set as follow:
 * the outer contour of each piece must be set at "outside".
 * all the small rectangle holes designed to assemble the case must be set as "on-path".
 * the remaining holes (screen, alimentation, RJ12, gas pipe and hole above sensors) must be set as "inside".
