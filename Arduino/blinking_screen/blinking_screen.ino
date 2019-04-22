@@ -5,9 +5,8 @@
 #define LCD_D6     12
 #define LCD_D7     13
 #define LCD_BL     9    // back light
-#define LCD_RW     7
 
-byte pins[] = {LCD_E, LCD_RS, LCD_D4, LCD_D5, LCD_D6, LCD_D7, LCD_BL, LCD_RW};
+byte pins[] = {LCD_E, LCD_RS, LCD_D4, LCD_D5, LCD_D6, LCD_D7, LCD_BL};
 
 
 void setup() {}

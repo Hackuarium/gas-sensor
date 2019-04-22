@@ -1,4 +1,4 @@
-#define CH4       A7      //need to be changed,read only pin 
+#define CH4       A1      //need to be changed,read only pin 
 #define H2        A0
 
 byte pins[] = {CH4, H2};
@@ -17,6 +17,11 @@ void testPins() {
     pinMode(pins[i], OUTPUT);
   }
 
+//  while(true) {
+//    for (byte i = 0; i < sizeof(pins); i++) {
+//      digitalWrite(pins[i], LOW);
+//    }
+//  }
   while (true) {
     for (byte i = 0; i < sizeof(pins); i++) {
       if (counter % (i + 1) == 0) {
