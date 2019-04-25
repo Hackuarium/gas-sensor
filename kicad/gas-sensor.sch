@@ -652,7 +652,6 @@ Wire Wire Line
 	6500 1100 6650 1100
 Wire Wire Line
 	6750 3800 6500 3800
-NoConn ~ 1350 6200
 $Comp
 L power:VCC #PWR011
 U 1 1 5C7FFF61
@@ -697,7 +696,6 @@ F 3 "" H 4050 5500 50  0001 C CNN
 	1    4050 5500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1350 6600
 $Comp
 L Connector:Conn_01x06_Female J1
 U 1 1 5C87FCE3
@@ -1241,4 +1239,6 @@ Wire Wire Line
 	9000 2600 9900 2600
 Wire Wire Line
 	9450 2350 9600 2350
+NoConn ~ 1350 6600
+NoConn ~ 1350 6200
 $EndSCHEMATC
