@@ -17,6 +17,6 @@ void getCH4() {
   float sensorVoltage;
   float sensorValue;
   sensorValue = analogRead(CH4);
-  sensorVoltage = sensorValue/1024*5.0;
+  sensorVoltage = sensorValue/1023*5.0*100;
   setParameter(PARAM_CH4, sensorVoltage);
 }

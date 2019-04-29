@@ -22,9 +22,9 @@ NIL_THREADS_TABLE_BEGIN()
 
 NIL_THREADS_TABLE_ENTRY(NULL, ThreadCO2, NULL, waThreadCO2, sizeof(waThreadCO2))
 
-//NIL_THREADS_TABLE_ENTRY(NULL, ThreadCH4, NULL, waThreadCH4, sizeof(waThreadCH4))
+NIL_THREADS_TABLE_ENTRY(NULL, ThreadCH4, NULL, waThreadCH4, sizeof(waThreadCH4))
 
-//NIL_THREADS_TABLE_ENTRY(NULL, ThreadH2, NULL, waThreadH2, sizeof(waThreadH2))
+NIL_THREADS_TABLE_ENTRY(NULL, ThreadH2, NULL, waThreadH2, sizeof(waThreadH2))
 
 NIL_THREADS_TABLE_ENTRY(NULL, ThreadTemperature, NULL, waThreadTemperature, sizeof(waThreadTemperature))
 

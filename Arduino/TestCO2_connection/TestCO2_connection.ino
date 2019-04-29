@@ -1,5 +1,5 @@
-#define RX        A3
-#define TX        A2
+#define RX        A2
+#define TX        A3
 #define SENS3     2
 #define PWM       3
 

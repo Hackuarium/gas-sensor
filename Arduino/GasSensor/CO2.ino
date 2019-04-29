@@ -6,9 +6,9 @@
 
 
 
-SoftwareSerial mySerial(MHZ_RX, MHZ_TX); // RX, TX
+SoftwareSerial co2Serial(MHZ_RX, MHZ_TX); // RX, TX
 
-MHZ19 mhz19(&mySerial);
+MHZ19 mhz19(&co2Serial);
 
 
 
@@ -16,7 +16,7 @@ NIL_WORKING_AREA(waThreadCO2, 20);
 
 NIL_THREAD(ThreadCO2, arg) {
   nilThdSleepMilliseconds(1000);
-  mySerial.begin(9600);
+  co2Serial.begin(9600);
   while (true) {
     nilThdSleepMilliseconds(1000);
     getCO2();
