@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:gas-sensor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -164,6 +165,8 @@ Wire Wire Line
 	6750 4700 6500 4700
 Text HLabel 6750 3700 2    50   Input ~ 0
 RX_MH-Z19
+Wire Wire Line
+	6750 4500 6500 4500
 $Comp
 L power:GND #PWR029
 U 1 1 5C64CE74
@@ -328,6 +331,10 @@ Text HLabel 6750 3500 2    50   Input ~ 0
 Sensor1_ON
 Wire Wire Line
 	5150 2800 5300 2800
+Text HLabel 9200 5900 0    50   Input ~ 0
+Sensor3
+Wire Wire Line
+	9200 5900 9300 5900
 Text HLabel 5150 2900 0    50   Input ~ 0
 Sensor1
 Wire Wire Line
@@ -1012,6 +1019,8 @@ Text HLabel 6750 4600 2    50   Input ~ 0
 PWM_MH-Z19
 Text HLabel 6750 3800 2    50   Input ~ 0
 TX_MH-Z19
+Text HLabel 6750 4500 2    50   Input ~ 0
+Sensor3
 Text HLabel 6800 2800 2    50   Input ~ 0
 LCD1
 Wire Wire Line
