@@ -1,5 +1,9 @@
 # gas-sensor
 
+<p align="center">
+  <img src="/images/PCB3D.png" width="480" />
+</p>
+
 The goal is to create a box allowing the determination of the gas composition of a bioreactor. The sensor that will be available are: CO2 (MH-Z19), H2 (MQ-8) and methane (MQ-4) as well as temperature (DS18B20) and humidity (DHT-22).
 
 The board will be compatible with arduino Lilapad Pro using a dedicated PCB.
