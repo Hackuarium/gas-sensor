@@ -90,6 +90,7 @@ Attenion: footprint of MH-Z19 should be directly on board
 
 ## Schematic
 Here is the schematic of the main components of the project:
+
 ATMega328P:
 <p align="center">
   <img src="/images/schematic/ATMega328.png" width="600" />
@@ -104,7 +105,7 @@ Sensors:
   <img src="/images/schematic/Hum.png" width="220" />
   <img src="/images/schematic/Temp.png" width="220" />
 </p>
-Others;
+Others:
 <p align="center">
   <img src="/images/schematic/LCD.png" width="300" />
   <img src="/images/schematic/Quartz.png" width="200" />
