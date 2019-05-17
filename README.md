@@ -95,7 +95,7 @@ Attenion: footprint of MH-Z19 should be directly on board
 <p align="center">
   <img src="/images/schematic/MQ4.png" width="220" />
   <img src="/images/schematic/MQ8.png" width="220" />
-  <img src="/images/schematic/MHZ19.png" width="300" />
+  <img src="/images/schematic/MHZ19.png" width="400" />
 </p>
 <p align="center">
   <img src="/images/schematic/Hum.png" width="220" />
@@ -104,8 +104,8 @@ Attenion: footprint of MH-Z19 should be directly on board
 <p align="center">
   <img src="/images/schematic/LCD.png" width="300" />
   <img src="/images/schematic/Quartz.png" width="200" />
-  <img src="/images/schematic/VoltageRegul.png" width="200" />
-<\p>
+  <img src="/images/schematic/VoltageRegul.png" width="500" />
+</p>
 
 ## Inspiration for PCB
 
