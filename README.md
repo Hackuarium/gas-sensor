@@ -8,10 +8,6 @@ The goal is to create a box allowing the determination of the gas composition of
 
 The board will be compatible with arduino Lilapad Pro using a dedicated PCB.
 
-Very interesting information:
-
-- http://www.figarosensor.com/products/common(1104).pdf
-
 Need to compensate for humidity and temperature ???
 
 - https://forum.arduino.cc/index.php?topic=433045.0
