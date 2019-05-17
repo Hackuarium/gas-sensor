@@ -3,16 +3,16 @@ The case is designed to be cut in a 3mm-wide material, using a CNC (Computer Num
 * all the other "holes" must be set at "inside cut"
 
 Here are some pictures of the mounted box, without the hermetic "aquarium" in the middle.
-<img src="Images/LCDface.JPG">
-<img src="Images/WithoutAqua.JPG">
+<img src="Images/LCDface.JPG" width="350">
+<img src="Images/WithoutAqua.jpg" width="350">
 
 When all the pieces are correctly obtained, one can easily assemble the case proceeding as follow:
 * Glue the different parts of the aquarium together. Acrylic resine Veracril© has been used.
 * Then, glue the plexiglas box directly on the chip. Assure that it is well hermetic. Silicon gun was used for ensuring absence of leaks.
 * Screw the chip with the "bottom" part (the one having a round hole in each corner) using M3 screws. One can use bolts for instance to adjsut the height, as seen in the picture:
-<img src="Images/Profile.JPG">
+<img src="Images/Profile.JPG" width="350">
 * Place both the "left" and "right" part (the ones with the linear split and the hole for the gas pipe) on each side of the chip.
 * Slide the "top" part above it and between the "left" and "right" parts.
 * Clip the "up" and "down" parts to the case.
 
-<img src="Images/WithAqua.JPG">
+<img src="Images/WithAqua.JPG" width="350">
