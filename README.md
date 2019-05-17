@@ -89,21 +89,22 @@ Attenion: footprint of MH-Z19 should be directly on board
 - MCP1703-33 for µC power supply
 
 ## Schematic
-
-<img src="/images/schematic/ATMega328.png" width="600" />
 <p align="center">
-  <img src="/images/schematic/MQ4.png" width="200" />
-  <img src="/images/schematic/MQ8.png" width="200" />
-  <img src="/images/schematic/MHZ19.png" width="200" />
+  <img src="/images/schematic/ATMega328.png" width="600" />
 </p>
 <p align="center">
-  <img src="/images/schematic/Hum.png" width="100" />
-  <img src="/images/schematic/TWmp.png" width="100" />
+  <img src="/images/schematic/MQ4.png" width="220" />
+  <img src="/images/schematic/MQ8.png" width="220" />
+  <img src="/images/schematic/MHZ19.png" width="300" />
 </p>
 <p align="center">
-  <img src="/images/schematic/LDC.png" width="200" />
-  <img src="/images/schematic/Quartz.png" width="100" />
-  <img src="/images/schematic/VoltageRegul.png" width="100" />
+  <img src="/images/schematic/Hum.png" width="220" />
+  <img src="/images/schematic/Temp.png" width="220" />
+</p>
+<p align="center">
+  <img src="/images/schematic/LCD.png" width="300" />
+  <img src="/images/schematic/Quartz.png" width="200" />
+  <img src="/images/schematic/VoltageRegul.png" width="200" />
 <\p>
 
 ## Inspiration for PCB
