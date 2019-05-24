@@ -119,23 +119,23 @@ Others:
 | Resistor       | 10k   | 2        | 0805 Handsolder             |
 | Resistor       | 4.7k  | 2        | 0805 Handsolder             |
 | Resistor       | 4.7   | 1        | 0805 Handsolder             |
-| Potentiometer  | /     | 1        | TRIM_3362R-1-222            |
+| Potentiometer  |       | 1        | TRIM_3362R-1-222            |
 | Capacitor      | 10µF  | 2        | 0805 Handsolder             |
 | Capacitor      | 100nF | 3        | 0805 Handsolder             |
 | Capacitor      | 18pF  | 2        | 0805 Handsolder             |
-| Diode Shottky  | /     | 3        | D_SOD-123                   |
-| BSP75          | /     | 2        | SOT-223-3_TabPin3           |
+| Diode Shottky  |       | 3        | D_SOD-123                   |
+| BSP75          |       | 2        | SOT-223-3_TabPin3           |
 | Crystal        | 8Mhz  | 1        | Crystal_SMD_5032 Handsolder |
-| MCP-1703A      | /     | 1        | SOT-23                      |
-| ATMega328P-AU  | /     | 1        | TQFP-32_7x7mm_P0.8mm        |
-| 5V power source| /     | 1        | BarrelJack_Horizontal       |
-| RJ12           | /     | 1        | RJ12_Amphenol_54601         |
-| LCD Screen     | /     | 1        | WC1602A                     |
-| MHZ-19 (CO2)   | /     | 1        | footprints: MHZ-19          |
-| MQ-4 (CH4)     | /     | 1        | footprints: MQ-4            |
-| MQ-8 (H2)      | /     | 1        | footprints: MQ-8            |
-| DHT22 (Hum)    | /     | 1        | footprints: DHT-22_HOR      |
-| DS18B20 (Temp) | /     | 1        | TO-92_Inline                |
+| MCP-1703A      |       | 1        | SOT-23                      |
+| ATMega328P-AU  |       | 1        | TQFP-32_7x7mm_P0.8mm        |
+| 5V power source|       | 1        | BarrelJack_Horizontal       |
+| RJ12           |       | 1        | RJ12_Amphenol_54601         |
+| LCD Screen     |       | 1        | WC1602A                     |
+| MHZ-19 (CO2)   |       | 1        | footprints: MHZ-19          |
+| MQ-4 (CH4)     |       | 1        | footprints: MQ-4            |
+| MQ-8 (H2)      |       | 1        | footprints: MQ-8            |
+| DHT22 (Hum)    |       | 1        | footprints: DHT-22_HOR      |
+| DS18B20 (Temp) |       | 1        | TO-92_Inline                |
 
 
 
