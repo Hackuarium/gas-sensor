@@ -21,35 +21,41 @@ NIL_THREAD(ThreadLcd, arg) {
   nilThdSleepMilliseconds(10);
   lcd.begin(LCD_NB_COLUMNS, LCD_NB_ROWS);
 
+  int i = 1;
   while (true) {
-    showData();
+    showData(i);
     nilThdSleepMilliseconds(2000);
+    i++;
   }
 }
 
-void showData() {
-  //lcd.setCursor(0, 0);
-  //lcd.print("T:");
-  //lcd.print((double)getParameter(PARAM_TEMPERATURE) / 100);
-  //lcd.print(" ");
-  //lcd.setCursor(8, 0);
-  //lcd.print("J:");
-  //lcd.print((double)getParameter(PARAM_HUMIDITY) / 100);
-  //lcd.print(" ");
-  lcd.setCursor(0, 0);
-  lcd.print("H2:");
-  lcd.print((double)getParameter(PARAM_H2), 1); //only one decimal is enough
-  lcd.print(" ");
-  lcd.setCursor(8, 0);
-  lcd.print("CH4:");
-  lcd.print((double)getParameter(PARAM_CH4) / 100);
-  lcd.print(" ");
-  lcd.setCursor(0, 1);
-  lcd.print("CO2:");
-  lcd.print((double)getParameter(PARAM_CO2));
-  lcd.print(" ");
-  lcd.setCursor(9, 1);
-  lcd.print(""); 
-  lcd.print("");
-  lcd.print(F("        "));
+void showData(int i) {
+  if(i%5 == 0 || (i-1)%5 == 0){
+    lcd.setCursor(0, 0);
+    lcd.print(F(" Temp:   Hum:   "));
+    lcd.setCursor(0, 1);
+    lcd.print(" ");
+    lcd.setCursor(1, 1);
+    lcd.print((double)getParameter(PARAM_TEMPERATURE) / 100, 2);
+    lcd.setCursor(6, 1);
+    lcd.print("   ");
+    lcd.setCursor(9, 1);
+    lcd.print((double)getParameter(PARAM_HUMIDITY) / 100, 2);
+    lcd.setCursor(14, 1);
+    lcd.print("  ");
+  }
+  else{
+    lcd.setCursor(0,0);
+    lcd.print("C02:  H2:  CH4:");
+    lcd.setCursor(0,1);
+    lcd.print((double)getParameter(PARAM_CO2),2);
+    lcd.setCursor(5,1);
+    lcd.print(" ");
+    lcd.setCursor(6,1);
+    lcd.print((double)getParameter(PARAM_H2)/100, 2);
+    lcd.setCursor(10,1);
+    lcd.print(" ");
+    lcd.setCursor(11,1);
+    lcd.print((double)getParameter(PARAM_CH4)/100, 2);
+  }
 }

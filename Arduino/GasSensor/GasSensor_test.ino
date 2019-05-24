@@ -9,8 +9,8 @@
 #define THR_EEPROM_LOGGER 1
 #define NUMBER_PARAMETERS_TO_LOG 6  // defines the number of parameters to log
 // allowed values: 1, 2, 3, 4, 6, 8, 10, 14
-// 2 first entries in the log will be logID and secodns between
-#define LOG_INTERVAL 600
+// 2 first entries in the log will be logID and seconds between
+#define LOG_INTERVAL 5
 
 
 
