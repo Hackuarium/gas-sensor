@@ -56,32 +56,32 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 ## Pinout
 
-| n°  | port | pin      |                  |     |
-| --- | ---- | -------- | ---------------- | --- |
-| 23  | PC0  | A0       | Sensor2          |     |
-| 24  | PC1  | A1       | sensor2 ON       |     |
-| 25  | PC2  | A2       | Soft RX - MH-Z19 |     |
-| 26  | PC3  | A3       | Soft TX - MH-Z19 |     |
-| 27  | PC4  | SDA      | Slave I2C        |     |
-| 28  | PC5  | SCL      | Slave I2C        |     |
-| 19  | ADC6 | A6       | Sensor1          |     |
-| 22  | ADC7 | A7       | Sensor1 ON       |     |
-| 30  | PD0  | RX       | FTDI             |     |
-| 31  | PD1  | TX       | FTDI             |     |
-| 32  | PD2  | D2       | Sensor3          |     |
-| 1   | PD3  | D3       | Sensor3 ON       | PWM |
-| 2   | PD4  | D4       | TEMPERATURE      |     |
-| 9   | PD5  | D5       | HUMIDITY         | PWM |
-| 10  | PD6  | D6       | LCD RS           | PWM |
-| 11  | PD7  | D7       | LCD R/W          |     |
-| 12  | PB0  | D8       | LCD E            |     |
-| 13  | PB1  | D9       | LCD LED          | PWM |
-| 14  | PB2  | D10      | LCD1             | PWM |
-| 15  | PB3  | MOSI D11 | LCD2             | PWM | mh |
-| 16  | PB4  | MISO D12 | LCD3             |     |
-| 17  | PB5  | SCK D13  | LCD4             |     |
+| n° Arduino | port | pin      |                  |     |
+| ---------- | ---- | -------- | ---------------- | --- |
+| A0         | PC0  | A0       | Sensor2          |     |
+| A1         | PC1  | A1       | sensor2 ON       |     |
+| A2         | PC2  | A2       | Soft RX - MH-Z19 |     |
+| A3         | PC3  | A3       | Soft TX - MH-Z19 |     |
+| A4         | PC4  | SDA      | Slave I2C        |     |
+| A5         | PC5  | SCL      | Slave I2C        |     |
+| A6         | ADC6 | A6       | Sensor1          |     |
+| A7         | ADC7 | A7       | Sensor1 ON       |     |
+| 0          | PD0  | RX       | FTDI             |     |
+| 1          | PD1  | TX       | FTDI             |     |
+| 2          | PD2  | D2       | /                |     |
+| 3          | PD3  | D3       | PWM_MH-Z19       | PWM |
+| 4          | PD4  | D4       | TEMPERATURE      |     |
+| 5          | PD5  | D5       | HUMIDITY         | PWM |
+| 6          | PD6  | D6       | LCD RS           | PWM |
+| 7          | PD7  | D7       | /                |     |
+| 8          | PB0  | D8       | LCD E            |     |
+| 9          | PB1  | D9       | LCD LED          | PWM |
+| 10         | PB2  | D10      | LCD1             | PWM |
+| 11         | PB3  | MOSI D11 | LCD2             | PWM | mh |
+| 12         | PB4  | MISO D12 | LCD3             |     |
+| 13         | PB5  | SCK D13  | LCD4             |     |
 
-Attenion: footprint of MH-Z19 should be directly on board
+n.b: Two pins (PD2 and PD7) are free and could be used to add a fourth sensor.
 
 ## Power supply
 
@@ -105,7 +105,7 @@ Sensors:
   <img src="/images/schematic/Hum.png" width="220" />
   <img src="/images/schematic/Temp.png" width="220" />
 </p>
-Others:
+Others (LCD, crystal and voltage regulator):
 <p align="center">
   <img src="/images/schematic/LCD.png" width="300" />
   <img src="/images/schematic/Quartz.png" width="200" />
