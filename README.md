@@ -129,7 +129,7 @@ Others:
 | MCP-1703A      |       | 1        | SOT-23                      |
 | ATMega328P-AU  |       | 1        | TQFP-32_7x7mm_P0.8mm        |
 | 5V power source|       | 1        | BarrelJack_Horizontal       |
-| RJ12           |       | 1        | RJ12_Amphenol_54601         |
+| RJ12           |       | 1        | RJ12_Amphenol_54601         |
 | LCD Screen     |       | 1        | WC1602A                     |
 | MHZ-19 (CO2)   |       | 1        | footprints: MHZ-19          |
 | MQ-4 (CH4)     |       | 1        | footprints: MQ-4            |
