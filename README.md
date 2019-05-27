@@ -28,9 +28,9 @@ To update the submodules
 
 | name_pin | function    | model   |                             | Arduino library                                |
 | -------- | ----------- | ------- | --------------------------- | ---------------------------------------------- |
-| sensor1  | CH4         | MQ-4    |                             |                                                |
-| sensor2  | H2          | MQ-8    |                             |                                                |
-| sensor3  | CO2         | MH-Z19  | 3.3v (for RX / TX) + 5v!!!! | https://github.com/crisap94/MHZ19              |
+| CH4      | CH4         | MQ-4    |                             |                                                |
+| H2       | H2          | MQ-8    |                             |                                                |
+| CO2      | CO2         | MH-Z19  | 3.3v (for RX / TX) + 5v!!!! | https://github.com/crisap94/MHZ19              |
 | TEMP     | temperature | DS18B20 |                             |                                                |
 | HUM      | humidity    | DHT-22  |                             | https://github.com/adafruit/DHT-sensor-library |
 
@@ -58,14 +58,14 @@ https://www.alibaba.com/product-detail/A102-China-sup
 
 | n° Arduino | port | pin      |                  |     |
 | ---------- | ---- | -------- | ---------------- | --- |
-| A0         | PC0  | A0       | Sensor2          |     |
-| A1         | PC1  | A1       | sensor2 ON       |     |
-| A2         | PC2  | A2       | Soft RX - MH-Z19 |     |
-| A3         | PC3  | A3       | Soft TX - MH-Z19 |     |
+| A0         | PC0  | A0       | H2               |     |
+| A1         | PC1  | A1       | H2_ON            |     |
+| A2         | PC2  | A2       | CO2_RX           |     |
+| A3         | PC3  | A3       | CO2_TX           |     |
 | A4         | PC4  | SDA      | Slave I2C        |     |
 | A5         | PC5  | SCL      | Slave I2C        |     |
-| A6         | ADC6 | A6       | Sensor1          |     |
-| A7         | ADC7 | A7       | Sensor1 ON       |     |
+| A6         | ADC6 | A6       | CH4              |     |
+| A7         | ADC7 | A7       | CH4_ON           |     |
 | 0          | PD0  | RX       | FTDI             |     |
 | 1          | PD1  | TX       | FTDI             |     |
 | 2          | PD2  | D2       | /                |     |
